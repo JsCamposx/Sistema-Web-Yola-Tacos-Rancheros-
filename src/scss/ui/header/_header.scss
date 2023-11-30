@@ -1,0 +1,104 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+  /* Estilos para centrar la barra de navegación y distribuir los elementos horizontalmente */
+  .header {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: v.$light-cream;
+    
+    &__imagen{
+      
+        margin-top: 0.3rem;
+        width: 9.5rem;
+        height: 6.5rem;
+        margin-right: 0;
+    }
+
+ 
+   
+    &__contenido{
+       
+        position: fixed; 
+        border-radius: 9rem;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        background-color: v.$blanco; 
+        width: 100%;
+        height: 6rem;
+        outline: 1px solid #eae8e4;
+        outline-offset: -1px;
+       
+
+        @include m.desktop{
+            width: 90%;
+            height: 7.2rem;
+            max-width: 134.4rem;
+        }
+    }
+
+
+    &__nav ul{
+       
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+      
+        
+    }
+    
+    &__nav__txt{
+        display: none;
+       
+
+        @include m.desktop{
+            margin-left: 2rem;
+        color: v.$negro;
+        display: block;
+        }
+    }
+
+    &__boton{
+         margin-left: auto;
+         margin-right: 1rem;
+        border: none;
+        background: none;
+       
+         height: 3.5rem;
+         width: 3.5rem;
+
+         @include m.desktop{
+            height: 4.5rem;
+            width: 4.5rem;
+            margin-right: 4rem;
+           }
+
+           &--size{
+            font-size: 3.3rem;
+
+            @include m.desktop{
+                font-size: 4.5rem;
+               }
+           }
+
+         &--opciones{
+          display: block;
+           height: 3.5rem;
+           width: 3.5rem;
+           margin-right: 3rem;
+           border: none;
+           background-color: v.$blanco;
+
+           @include m.desktop{
+            display: none;
+           }
+         }
+    }
+
+  
+
+}
+

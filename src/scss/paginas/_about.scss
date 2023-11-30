@@ -1,0 +1,175 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.about {
+    width: 100%;
+
+    &__contenedor {
+        color: v.$kale;
+        display: flex;
+        justify-content: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+     
+
+        &--pad {
+            background-color: v.$blanco;
+            position: relative;
+            text-align: center;
+          
+            border-radius: 6rem;
+            padding-left: 8rem;
+            padding-right: 8rem;
+            padding-bottom: 4rem;
+            padding-top: 4rem;
+            width: min(83%, 110rem);
+
+            @include m.desktopmx {
+                width: min(95%);
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+
+           
+        }
+
+        &--padh{
+            width: 33%;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            
+            
+        }
+
+        &--padm{
+            display: flex;
+            width: min(95%, 130rem);
+            text-align: center;
+        }
+
+        &--padf{     
+            background-color: v.$blanco;
+            position: relative;
+            text-align: center;
+            border-radius: 6rem;
+            width: min(95%, 130rem);
+            max-height: 72rem;
+         
+        
+            @include m.desktopmx {
+                width: min(95%);
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+         
+      &--img{
+     
+        border-radius: 6rem;
+        width: 100%;
+        height: 100%;
+      }
+        }
+
+        &--img {
+            width: 18rem;
+            height: 18rem;
+        }
+        &--imgpad{
+        border-radius: 6rem;
+        max-width: 35rem;
+        width: 100%;
+   
+        }
+
+        &--info {
+            line-height: 2.4rem;
+            
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            font-size: 1.6rem;
+
+            @include m.desktopmx {
+              font-size: 1.4rem;
+            }
+        }
+
+        &--txt{
+            margin-top: 3rem;
+        }
+
+      
+
+        &--subtittle {
+            margin-top: 3rem;
+         
+        }
+
+        &--tittle{
+            font-size: 2.8rem;
+            font-weight: bold;
+            @include m.desktopmx {
+                font-size: 2rem;
+              }
+        }
+    }
+}
+
+.background-transparent{
+    background-color: transparent;
+}
+
+.font-size56px{
+    font-size: 56px;
+
+    @include m.desktopmx{
+        font-size: 42px;    
+    }
+}
+
+
+.font-size56px1{
+    font-size: 56px;
+
+    @include m.desktopmx{
+        font-size: 32px;  
+ 
+    }
+}
+.font-size36px{
+    font-size: 36px;
+    font-weight: bold;
+
+    @include m.desktopmx{
+        font-size: 24px;    
+    }
+}
+
+.font-size22px{
+    font-size: 22px;
+    @include m.desktopmx{
+        font-size: 20px;    
+    }
+}
+
+.padding0px{
+    padding-top: 0;
+}
+
+.rotater{
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.rotatel{
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+ 
+}
+
+.padding-top14rem{
+    padding-top: 14rem;
+}
+
+.margin12rem{
+    margin-top: 12rem;
+}
