@@ -10,8 +10,10 @@
         justify-content: center;
         padding-top: 4rem;
         padding-bottom: 4rem;
-     
-
+        
+        @include m.desktopmx {
+            padding-bottom: 0rem;
+        }
         &--pad {
             background-color: v.$blanco;
             position: relative;
@@ -88,9 +90,7 @@
             margin-bottom: 3rem;
             font-size: 1.6rem;
 
-            @include m.desktopmx {
-              font-size: 1.4rem;
-            }
+           
         }
 
         &--txt{
@@ -107,9 +107,7 @@
         &--tittle{
             font-size: 2.8rem;
             font-weight: bold;
-            @include m.desktopmx {
-                font-size: 2rem;
-              }
+          
         }
     }
 }
@@ -158,18 +156,38 @@
 .rotater{
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
+
+    @include m.desktopmx{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
 }
 
 .rotatel{
     -webkit-transform: rotate(3deg);
     transform: rotate(3deg);
- 
+    @include m.desktopmx{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
 }
 
 .padding-top14rem{
     padding-top: 14rem;
+
+    @include m.desktopmx{
+        padding-top: 0rem;
+    }
 }
 
 .margin12rem{
-    margin-top: 12rem;
+    margin-top: 8rem;
+}
+
+.margin7rem{
+    margin-top: 9.5rem;
+
+    @include m.desktopmx{
+        margin-top: 5.5rem;
+    }
 }

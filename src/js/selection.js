@@ -1,5 +1,6 @@
 var currentPage = window.location.pathname;
     if (currentPage === '/admin/eventos/crear') {
+		console.log('Script selection loaded')
 $(document).ready(function() {
 		console.log('Script selection loaded')
         if (document.querySelector(".card-swiper-otros")) {

@@ -93,17 +93,15 @@
 <!--  -->
     </div>
   
-    <div class="swiper-container">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
+    <div class="swiper-container swiper-container-css">
+        <div class="swiper swiper-css mySwiper">
+            <div class="swiper-wrapper swiper-wrapper-css">
                 <?php foreach($platillos as $platillo){ ?>
-                    <div class="card-swiper swiper-slide" data-nombre="<?php echo $platillo->nombre; ?>" data-tipo="<?php echo $platillo->tipo_platillo; ?>">
+                    <div class="card-swiper swiper-slide swiper-slide-css" data-nombre="<?php echo $platillo->nombre; ?>" data-tipo="<?php echo $platillo->tipo_platillo; ?>">
                         <div>
                             <div class="card-swiper__head">
-                                <picture>
-                                    <img class="card-swiper__head--img" src="<?php echo $_ENV['HOST'] . '/img/platillos/' . $platillo->imagen; ?>.webp" alt="Imagen Platillo">
-                                </picture>
-                            </div>
+                             <img class="card-swiper__head--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="100%" height="100%" />
+                           </div>
                             <div class="card-swiper__bottom">
                                 <p class="card-swiper__bottom--tittle">
                                     <?php echo $platillo->nombre; ?>
@@ -113,8 +111,8 @@
                     </div>
                 <?php } ?>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next swiper-button-next-css"></div>
+            <div class="swiper-button-prev swiper-button-prev-css"></div>
         </div>
 
     </div>
@@ -153,9 +151,9 @@
 <!--  -->
 </div>
 
-<div class="swiper-container">
-    <div class="swiper mySwiperBebidas">
-        <div class="swiper-wrapper">
+<div class="swiper-container swiper-container-css">
+    <div class="swiper swiper-css mySwiperBebidas">
+        <div class="swiper-wrapper swiper-wrapper-css">
             <!-- card inicial  -->
         <div class="card-swiper-bebidas swiper-slide" data-nombre="Ninguna" data-tipo="Bebidas">
                     <div>
@@ -166,12 +164,10 @@
                 </div>
                 <!--   -->
             <?php foreach($platillos as $platillo): ?>
-                <div class="card-swiper-bebidas swiper-slide" data-nombre="<?php echo $platillo->nombre; ?>" data-tipo="<?php echo $platillo->tipo_platillo; ?>">
+                <div class="card-swiper-bebidas swiper-slide swiper-slide-css" data-nombre="<?php echo $platillo->nombre; ?>" data-tipo="<?php echo $platillo->tipo_platillo; ?>">
                     <div>
                         <div class="card-swiper__head">
-                            <picture>
-                                <img class="card-swiper__head--img" src="<?php echo $_ENV['HOST'] . '/img/platillos/' . $platillo->imagen; ?>.webp" alt="Imagen Bebida">
-                            </picture>
+                            <img class="card-swiper__head--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="100%" height="100%" />
                         </div>
                         <div class="card-swiper__bottom">
                             <p class="card-swiper__bottom--tittle">
@@ -182,8 +178,8 @@
                 </div>
             <?php endforeach; ?>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next swiper-button-next-css"></div>
+        <div class="swiper-button-prev swiper-button-prev-css"></div>
     </div>
 </div>
 
@@ -226,9 +222,9 @@
 
 </div>
 
-<div class="swiper-container">
-    <div class="swiper mySwiperOtros">
-        <div class="swiper-wrapper">
+<div class="swiper-container swiper-container-css">
+    <div class="swiper swiper-css mySwiperOtros">
+        <div class="swiper-wrapper swiper-wrapper-css">
             <!-- card inicial  -->
             <div class="card-swiper-otros swiper-slide" data-nombre="Ninguna" data-tipo="Acompañante">
                 <div>
@@ -239,12 +235,10 @@
             </div>
             <!--   -->
             <?php foreach($platillos as $platillo): ?>
-                <div class="card-swiper-otros swiper-slide" data-nombre="<?php echo $platillo->nombre; ?>" data-tipo="<?php echo $platillo->tipo_platillo; ?>">
+                <div class="card-swiper-otros swiper-slide swiper-slide-css" data-nombre="<?php echo $platillo->nombre; ?>" data-tipo="<?php echo $platillo->tipo_platillo; ?>">
                     <div>
                         <div class="card-swiper__head">
-                            <picture>
-                                <img class="card-swiper__head--img" src="<?php echo $_ENV['HOST'] . '/img/platillos/' . $platillo->imagen; ?>.webp" alt="Imagen Otro">
-                            </picture>
+                            <img class="card-swiper__head--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="100%" height="100%" />
                         </div>
                         <div class="card-swiper__bottom">
                             <p class="card-swiper__bottom--tittle">
@@ -255,8 +249,8 @@
                 </div>
             <?php endforeach; ?>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next swiper-button-next-css"></div>
+        <div class="swiper-button-prev swiper-button-prev-css"></div>
     </div>
 </div>
 

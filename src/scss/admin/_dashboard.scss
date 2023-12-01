@@ -15,48 +15,41 @@
         margin-bottom: 3rem;
         width: 100%;
 
-
         @include m.telefonomx {
             width: 90%;
         }
 
         &--input {
             width: calc(100% - 0.5rem);
-            height: 45px;
-            padding: 12px;
-            border-radius: 12px;
+            height: 4.5rem;
+            padding: 1.2rem;
+            border-radius: 1.2rem;
             border: 1.5px solid lightgrey;
             outline: none;
-
-            box-shadow: 0px 0px 20px -18px;
+            box-shadow: 0rem 0rem 2rem -1.8rem;
 
             &:hover {
-                border: 2px solid v.$color1;
-                box-shadow: 0px 0px 20px -17px;
+                border: 0.2rem solid v.$color1;
+                box-shadow: 0rem 0rem 2rem -1.7rem;
             }
-
-
-
         }
 
         &--button {
             background-color: v.$color1;
             color: v.$blanco;
             width: 5rem;
-            height: 45px;
+            height: 4.5rem;
             border: none;
 
             position: absolute;
             top: 0;
             right: 0;
-            border-radius: 12px;
+            border-radius: 1.2rem;
             transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 
             &:hover {
                 background-color: darken(v.$color1, 10%);
             }
-
-
         }
     }
 
@@ -64,7 +57,6 @@
         position: absolute;
         width: calc(100% - 8rem);
         left: 8rem;
-
 
         min-height: 100vh;
         background-color: v.$blanco;
@@ -78,14 +70,11 @@
 
         &--active {
             width: calc(100% - 30rem);
-            left: 30rem;
+            left: 20%;
 
             @include m.desktopmx {
-                left: 30rem;
+                left: 85%;
             }
-
-
-
         }
     }
 
@@ -95,7 +84,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
 
     &__toggle {
@@ -117,8 +105,6 @@
 
         @include m.telefonomx {
             z-index: 1001;
-
-
         }
     }
 
@@ -131,7 +117,6 @@
         cursor: pointer;
 
         @include m.telefonomx {
-
             min-width: 4rem;
         }
 
@@ -145,7 +130,6 @@
         }
     }
 
-
     &__boton {
         @include m.boton(v.$color1, v.$blanco);
         width: 100%;
@@ -157,41 +141,24 @@
             margin-right: 0;
             margin-left: 0;
             width: 25rem;
-
         }
 
     }
 
-
-
-
-
-
-
     &__contenedor {
-
-
         background-color: transparent;
         padding: 0rem;
-
-
         border-radius: 1rem;
 
-
-
         @include m.desktop {
-
             padding: 2rem;
             margin-top: 0rem;
-
         }
-
 
         &--platillos {
             @extend .dashboard__contenedor;
             display: flex;
             justify-content: center;
-
         }
 
         &--boton {
@@ -205,6 +172,5 @@
     &__formulario {
         @extend .dashboard__contenedor;
         @include m.contenedor-md;
-
     }
 }

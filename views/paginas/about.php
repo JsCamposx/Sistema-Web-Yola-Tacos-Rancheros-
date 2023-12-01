@@ -11,7 +11,7 @@ $excludeSubHeader = true;
     <!-- Section 1 -->
     <div class="about__contenedor">
         <div class="about__contenedor--pad">
-            <img src="img/about/img-section1.webp" class="about__contenedor--img">
+            <img src="img/about/img-section1.webp" class="about__contenedor--img" width="180" height="180" alt="Imagen Seccion 1" width="auto" height="auto">
             <div class="about__contenedor--tittle">
                 <p>Lorem Ipsum</p>
             </div>
@@ -71,60 +71,113 @@ $excludeSubHeader = true;
         </div>
     </div>
 
-    <!-- Section 4 (Falta terminar esta area responsive)-->
-    <div class="about__contenedor">
-        <div class="about__contenedor--padm">
-            <div class="about__contenedor--padh">
-                <img src="img/about/img-section4-1.webp" class="about__contenedor--imgpad rotater">
-                <div class="about__contenedor--info">
-                    <div class="about__contenedor--tittle">
-                        <p>Dar de comer bien en todos los sentidos</p>
+    <!-- Section 4 -->
+    <div class="swiper-container">
+        <div class="about__contenedor">
+            <div class="about__contenedor--padm" id="miCarrusel">
+            <div class="swiper-wrapper">
+                    <div class="about__contenedor--padh swiper-slide">
+                        <img src="img/about/img-section4-1.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.1" width="350" height="auto">
+                        <div class="about__contenedor--info">
+                            <div class="about__contenedor--tittle">
+                                <p>Dar de comer bien en todos los sentidos</p>
+                            </div>
+                            <div class="about__contenedor--txt">
+                                <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
+                                    contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
+                                    Ipsum es que tiene una distribución más o menos normal de las letras, al contrario
+                                    de usar textos como por ejemplo "Contenido aquí, contenido aquí". </p>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="about__contenedor--txt">
-                        <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
-                            contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
-                            Ipsum es que tiene una distribución más o menos normal de las letras, al contrario
-                            de usar textos como por ejemplo "Contenido aquí, contenido aquí". </p>
+
+                    <div class="about__contenedor--padh padding-top14rem swiper-slide">
+                        <img src="img/about/img-section4-2.webp" class="about__contenedor--imgpad rotatel" alt="Imagen Seccion 4.2" width="350" height="auto">
+                        <div class="about__contenedor--info">
+                            <div class="about__contenedor--tittle">
+                                <p>Ofrecer un bonus de tiempo extra para ti</p>
+                            </div>
+                            <div class="about__contenedor--txt">
+                                <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
+                                    contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
+                                    Ipsum es que tiene una distribución más</p>
+                            </div>
+
+                        </div>
                     </div>
+
+                    <div class="about__contenedor--padh swiper-slide">
+                        <img src="img/about/img-section4-3.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.3" width="350" height="auto">
+                        <div class="about__contenedor--info">
+                            <div class="about__contenedor--tittle">
+                                <p>Cocinar, escuchar, volver a cocinar</p>
+                            </div>
+                            <div class="about__contenedor--txt">
+                                <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
+                                    contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
+                                    Ipsum es que tiene una distribución más o menos normal de las letras, al contrario
+                                    de usar textos </p>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
 
-            <div class="about__contenedor--padh padding-top14rem">
-                <img src="img/about/img-section4-2.webp" class="about__contenedor--imgpad rotatel">
-                <div class="about__contenedor--info">
-                    <div class="about__contenedor--tittle">
-                        <p>Ofrecer un bonus de tiempo extra para ti</p>
-                    </div>
-                    <div class="about__contenedor--txt">
-                        <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
-                            contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
-                            Ipsum es que tiene una distribución más</p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="about__contenedor--padh">
-                <img src="img/about/img-section4-3.webp" class="about__contenedor--imgpad rotater">
-                <div class="about__contenedor--info">
-                    <div class="about__contenedor--tittle">
-                        <p>Cocinar, escuchar, volver a cocinar</p>
-                    </div>
-                    <div class="about__contenedor--txt">
-                        <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
-                            contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
-                            Ipsum es que tiene una distribución más o menos normal de las letras, al contrario
-                            de usar textos </p>
-                    </div>
-                </div>
-            </div>
         </div>
+        <div class="swiper-pagination"></div>
     </div>
+
+    <style>
+        .swiper-pagination-bullet {
+            width: 18px;
+            height: 18px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            color: #383a33;
+
+            opacity: 1;
+            background: #FFF;
+            border: 1px solid #383a33;
+
+        }
+
+        .swiper-pagination-bullet-active {
+            width: 20px;
+            height: 20px;
+            color: #383a33;
+            background: #383a33;
+            transition: all 0.5s;
+
+        }
+
+        .swiper-pagination {
+            position: static !important;
+        }
+
+        .swiper-container {
+            overflow: visible !important;
+        }
+
+       
+
+        @media only screen and (max-width: 1024px) {
+            .swiper-container {
+                overflow: hidden !important;
+            }
+         
+        }
+        
+      
+     
+    </style>
 
     <!-- Section 5 -->
     <div class="about__contenedor">
         <div class="about__contenedor--padf">
-            <img src="img/about/img-section5.webp"  class="about__contenedor--padf--img">
+            <img src="img/about/img-section5.webp" class="about__contenedor--padf--img" alt="Imagen Seccion 5" width="auto" height="auto">
         </div>
     </div>

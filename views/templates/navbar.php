@@ -1,41 +1,36 @@
-
 <div class="header__contenido">
-            <div class="header__img">
-                <a href="/login">
-                    <img src="/build/img/Logo3.webp" class="header__imagen" >
+    <div class="header__img">
+        <a href="/login" aria-label="Enlace al inicio de sesión">
+            <img src="/build/img/Logo3.webp" class="header__imagen" alt="Imagen de la navegación">
+        </a>
+    </div>
+
+    <nav class="header__nav">
+        <ul>
+            <li>
+                <a class="header__nav__txt" href="/carta">
+                    Nuestros platos
                 </a>
-            </div>
-          
-                <nav class="header__nav">
-                    <ul>
-                        <li>
-                            <a class="header__nav__txt" href="/inicio">
-                                Nuestros platos
-                            </a>
-                        </li>
-                        <li>
-                        <a class="header__nav__txt" href="/about">
-                                Agenda
-                            </a>
-                        </li>
-                        <li>
-                        <a class="header__nav__txt" href="/404">
-                                Como funciona
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <button class="header__boton" >
-                <span class=""> <i class="fa-solid fa-circle-user header__boton--size" style="color: #F23545;"></i></span>
-                </button>  
+            </li>
+            <li>
+                <a class="header__nav__txt" href="/about">
+                    Agenda
+                </a>
+            </li>
+            <li>
+                <a class="header__nav__txt" href="/404">
+                    Cómo funciona
+                </a>
+            </li>
+        </ul>
+    </nav>
 
-                <button class="header__boton--opciones" >
-                    <span class=""><i class="fa-solid fa-bars  header__boton--size"  style="color: #F23545;"></i></span>
-                    <span class=""><i class="fa-solid fa-times " style="color: #1E293B; display: none;"></i></span>
-                </button> 
-        </div>
+    <button class="header__boton" aria-label="Botón de usuario">
+        <span class="icon-container"> <i  class="fa-solid fa-circle-user header__boton--size" ></i></span>
+    </button>
 
-
-
-        
-   </div>
+    <button class="header__boton--opciones" aria-label="Botón de opciones">
+        <span class="icon-container"><i  class="fa-solid fa-bars header__boton--size" ></i></span>
+        <span class="icon-container"><i  class="fa-solid fa-times" style=" display: none;"></i></span>
+    </button>
+</div>

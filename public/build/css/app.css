@@ -374,6 +374,11 @@ h3 {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+@media (max-width: 1024px) {
+  .about__contenedor {
+    padding-bottom: 0rem;
+  }
+}
 .about__contenedor--pad {
   background-color: #FFFFFF;
   position: relative;
@@ -437,11 +442,6 @@ h3 {
   margin-bottom: 3rem;
   font-size: 1.6rem;
 }
-@media (max-width: 1024px) {
-  .about__contenedor--info {
-    font-size: 1.4rem;
-  }
-}
 .about__contenedor--txt {
   margin-top: 3rem;
 }
@@ -451,11 +451,6 @@ h3 {
 .about__contenedor--tittle {
   font-size: 2.8rem;
   font-weight: bold;
-}
-@media (max-width: 1024px) {
-  .about__contenedor--tittle {
-    font-size: 2rem;
-  }
 }
 
 .background-transparent {
@@ -506,17 +501,41 @@ h3 {
 .rotater {
   transform: rotate(-3deg);
 }
+@media (max-width: 1024px) {
+  .rotater {
+    transform: rotate(0deg);
+  }
+}
 
 .rotatel {
   transform: rotate(3deg);
+}
+@media (max-width: 1024px) {
+  .rotatel {
+    transform: rotate(0deg);
+  }
 }
 
 .padding-top14rem {
   padding-top: 14rem;
 }
+@media (max-width: 1024px) {
+  .padding-top14rem {
+    padding-top: 0rem;
+  }
+}
 
 .margin12rem {
-  margin-top: 12rem;
+  margin-top: 8rem;
+}
+
+.margin7rem {
+  margin-top: 9.5rem;
+}
+@media (max-width: 1024px) {
+  .margin7rem {
+    margin-top: 5.5rem;
+  }
 }
 
 .background {
@@ -577,11 +596,7 @@ h3 {
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-.platos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.platos__main {
   margin-left: auto;
   margin-right: auto;
   width: min(95%, 130rem);
@@ -1219,6 +1234,17 @@ h3 {
   height: 4rem;
 }
 
+.Ocultar {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .alerta {
   padding: 1.5rem 1.5rem 1.5rem 3rem;
   text-transform: uppercase;
@@ -1241,7 +1267,30 @@ h3 {
   padding-top: 8.5rem;
   padding-bottom: 2rem;
   background-color: #ffffff;
-  max-width: 134.4rem;
+}
+.h__tittle {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 100%;
+  width: 66.666%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+@media (max-width: 1024px) {
+  .h__tittle {
+    font-size: 4rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 1024px) {
+  .h__subtittle {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 @media (min-width: 1024px) {
   .h {
@@ -1255,8 +1304,40 @@ h3 {
   position: relative;
 }
 .h__contenedor {
+  color: #383a33;
+  display: flex;
+  justify-content: center;
+  max-width: 130rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.h__contenedor__card {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  width: 25%;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+@media (max-width: 1024px) {
+  .h__contenedor__card--txt {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .h__contenedor__card--tittle {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+.h__contenedor__card--img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 16rem;
+  height: 16rem;
 }
 .h__pad-izquierdo {
   flex-shrink: 0;
@@ -1381,7 +1462,7 @@ h3 {
   .h__pad-derecho {
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: 0rem;
     width: 70%;
     left: 50%;
     transform: translate(8rem, 4rem);
@@ -1408,13 +1489,55 @@ h3 {
     display: none;
   }
 }
-.h__pad-derecho__img--picture {
-  width: 80%;
+
+.flex-column {
+  flex-direction: column;
 }
-@media (min-width: 1024px) {
-  .h__pad-derecho__img--picture {
-    width: 100%;
+
+.flex-row {
+  flex-direction: row;
+}
+
+.fontsize-28px {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.fontsize-16px {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.fontsize-2rem {
+  font-size: 2.2rem;
+}
+@media (max-width: 1024px) {
+  .fontsize-2rem {
+    font-size: 2rem;
   }
+}
+
+.padding0 {
+  padding-bottom: 0;
+}
+
+.margin-8rem {
+  margin-top: 8rem;
+}
+@media (max-width: 1024px) {
+  .margin-8rem {
+    margin-top: 2rem;
+  }
+}
+
+.colorGreen {
+  color: #17330c;
+}
+
+.backgroundGreen {
+  background-color: #17330c;
 }
 
 .stars {
@@ -1446,27 +1569,27 @@ h3 {
 }
 .dashboard__buscador--input {
   width: calc(100% - 0.5rem);
-  height: 45px;
-  padding: 12px;
-  border-radius: 12px;
+  height: 4.5rem;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
   border: 1.5px solid lightgrey;
   outline: none;
-  box-shadow: 0px 0px 20px -18px;
+  box-shadow: 0rem 0rem 2rem -1.8rem;
 }
 .dashboard__buscador--input:hover {
-  border: 2px solid #F23545;
-  box-shadow: 0px 0px 20px -17px;
+  border: 0.2rem solid #F23545;
+  box-shadow: 0rem 0rem 2rem -1.7rem;
 }
 .dashboard__buscador--button {
   background-color: #F23545;
   color: #FFFFFF;
   width: 5rem;
-  height: 45px;
+  height: 4.5rem;
   border: none;
   position: absolute;
   top: 0;
   right: 0;
-  border-radius: 12px;
+  border-radius: 1.2rem;
   transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .dashboard__buscador--button:hover {
@@ -1489,11 +1612,11 @@ h3 {
 }
 .dashboard__contenido--active {
   width: calc(100% - 30rem);
-  left: 30rem;
+  left: 20%;
 }
 @media (max-width: 1024px) {
   .dashboard__contenido--active {
-    left: 30rem;
+    left: 85%;
   }
 }
 .dashboard__topbar {
@@ -1696,11 +1819,6 @@ h3 {
   }
 }
 
-:root {
-  --surface-color: #fff;
-  --curve: 40;
-}
-
 .cards {
   margin-top: 2rem;
   display: grid;
@@ -1722,18 +1840,12 @@ h3 {
   display: block;
   margin-bottom: 3rem;
   height: 100%;
-  border-radius: calc(var(--curve) * 1px);
+  border-radius: 40px;
   overflow: hidden;
   text-decoration: none;
   width: 30rem;
   height: 35rem;
   gap: 5rem;
-}
-
-.card__image {
-  width: 100%;
-  height: 80%;
-  z-index: 1;
 }
 
 .card__overlay {
@@ -1742,8 +1854,8 @@ h3 {
   left: 0;
   right: 0;
   z-index: 10;
-  border-radius: calc(var(--curve) * 1px);
-  background-color: var(--surface-color);
+  border-radius: 40px;
+  background-color: #FFFFFF;
   transform: translateY(100%);
   transition: 0.2s ease-in-out;
 }
@@ -1759,8 +1871,8 @@ h3 {
   gap: 2em;
   padding: 2em;
   padding-bottom: 2.6rem;
-  border-radius: calc(var(--curve) * 1px) 0 0 0;
-  background-color: var(--surface-color);
+  border-radius: 40px 0 0 0;
+  background-color: #FFFFFF;
   transform: translateY(-100%);
   transition: 0.2s ease-in-out;
 }
@@ -1769,12 +1881,12 @@ h3 {
   width: 80px;
   height: 80px;
   position: absolute;
-  bottom: 100%;
+  bottom: 99%;
   right: 0;
   z-index: 100;
 }
 .card__arc path {
-  fill: var(--surface-color);
+  fill: #FFFFFF;
   d: path("M 40 80 c 22 0 40 -22 40 -40 v 45 Z");
 }
 
@@ -1968,42 +2080,42 @@ h3 {
   transition: 0.5s;
 }
 
-.swiper-container {
+.swiper-container-css {
   width: 100%;
   height: 16.8rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
 }
 
-.swiper-slide {
+.swiper-slide-css {
   height: 15.8rem !important;
 }
 
-.swiper {
+.swiper-css {
   height: 100%;
 }
 
-.swiper-wrapper {
+.swiper-wrapper-css {
   position: absolute !important;
   max-width: 100%;
 }
 
-.swiper-button-next {
+.swiper-button-next-css {
   color: #F23545 !important;
   font-weight: bold;
 }
 @media (max-width: 630px) {
-  .swiper-button-next {
+  .swiper-button-next-css {
     display: none !important;
   }
 }
 
-.swiper-button-prev {
+.swiper-button-prev-css {
   color: #F23545 !important;
   font-weight: bold;
 }
 @media (max-width: 630px) {
-  .swiper-button-prev {
+  .swiper-button-prev-css {
     display: none !important;
   }
 }
@@ -2023,7 +2135,7 @@ h3 {
 }
 @media (max-width: 1024px) {
   .sidebar__navigation {
-    left: -30rem;
+    left: -30%;
   }
 }
 @media (max-width: 630px) {
@@ -2045,8 +2157,8 @@ h3 {
   position: relative;
   width: 100%;
   list-style: none;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
 }
 .sidebar__navigation ul li:hover, .sidebar__navigation ul li.hovered {
   background-color: #FFFFFF;
@@ -2068,7 +2180,7 @@ h3 {
   color: #F23545;
 }
 .sidebar__navigation--active {
-  width: 30rem;
+  width: 20%;
 }
 @media (max-width: 1024px) {
   .sidebar__navigation--active {

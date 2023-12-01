@@ -39,7 +39,7 @@ class PaginasController
 
 
         $router->render('paginas/platos', [
-            'titulo' => 'Nuestros Platos'
+            'titulo' => 'Carta'
         ]);
     }
 }
