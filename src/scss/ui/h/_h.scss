@@ -6,9 +6,36 @@
     padding-top: 8.5rem;
     padding-bottom: 2rem;
     background-color: v.$light-cream;
-    max-width: 134.4rem;
-   
+    
+
+    &__tittle{
+        font-size: 5.6rem;
+        font-weight: 700;
+        line-height: 100%;
+        width: 66.666%; 
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1.2rem;
+    padding-right: 1.2rem;
+
+    @include m.desktopmx{
+        font-size: 4rem;
+        width: 100%; 
+        margin-bottom: 1.5rem;
+        margin-top: 4rem;
+      
+    }
+
+
+    }
+
  
+    &__subtittle{
+        @include m.desktopmx{
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    }
        @include m.desktop{
         padding-top: 11rem;
         padding-bottom: 10rem;
@@ -25,9 +52,51 @@
     }
 
     &__contenedor{
+        color: v.$kale;
         display: flex;
-        flex-direction: column;
-     
+        justify-content: center;
+        max-width: 130rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+        &__card{
+            display: flex;
+         
+            flex-direction: column;
+            text-align: center;
+            width: 25%;
+       
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+
+        
+            &--txt{
+                @include m.desktopmx{
+                    padding-left: 5rem;
+                    padding-right: 5rem;
+                }
+            }
+
+
+            &--tittle{
+                @include m.desktopmx{
+                    padding-left: 5rem;
+                    padding-right: 5rem;
+                }
+            }
+
+        
+            &--img{
+                margin-left: auto;
+                margin-right: auto;
+                width: 16rem;
+                height: 16rem;
+            }
+        }
+        
+       
+       
       
     }
 
@@ -173,12 +242,12 @@
         
         width: 100%;
         transform: translate(0,0);
-       
+        
         @include m.desktop{
             display: block;
             position: absolute;
-            bottom: 0;
-         
+            bottom: 0rem;
+        
             width: 70%;
             left: 50%;
             transform: translate(8rem,4rem);
@@ -215,14 +284,7 @@
                       }
                }
 
-               &--picture{
-                width: 80%;
-              
-                @include m.desktop{
-                   
-                    width: 100%;
-                      }
-               }
+               
                }
         }
 
@@ -231,4 +293,51 @@
     
     }
 
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.fontsize-28px{
+   
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fontsize-16px{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.fontsize-2rem{
+    font-size: 2.2rem;
+    @include m.desktopmx{
+        font-size: 2rem;
+    }
+}
+
+.padding0{
+    padding-bottom: 0;
+}
+
+.margin-8rem{
+    margin-top: 8rem;
+    @include m.desktopmx{
+        margin-top: 2rem;
+    }
+}
+
+.colorGreen{
+    color: #17330c;
+}
+
+.backgroundGreen{
+    background-color: #17330c;
+}
 

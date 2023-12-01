@@ -173,3 +173,11 @@
 .margin12rem{
     margin-top: 12rem;
 }
+
+.margin7rem{
+    margin-top: 9.5rem;
+
+    @include m.desktopmx{
+        margin-top: 5.5rem;
+    }
+}

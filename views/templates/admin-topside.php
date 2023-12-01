@@ -5,6 +5,6 @@
     </div>
 
     <div class="dashboard__user">
-        <img src="/img/dashboard/user.jpeg">
+        <img src="/img/dashboard/user.jpeg" alt="Imagen Usuario" loading="lazy">
     </div>
  </div>   

@@ -11,7 +11,7 @@ $excludeSubHeader = true;
     <!-- Section 1 -->
     <div class="about__contenedor">
         <div class="about__contenedor--pad">
-            <img src="img/about/img-section1.webp" class="about__contenedor--img">
+            <img src="img/about/img-section1.webp" class="about__contenedor--img" width="180" height="180" alt="Imagen Seccion 1" width="auto" height="auto">
             <div class="about__contenedor--tittle">
                 <p>Lorem Ipsum</p>
             </div>
@@ -75,7 +75,7 @@ $excludeSubHeader = true;
     <div class="about__contenedor">
         <div class="about__contenedor--padm">
             <div class="about__contenedor--padh">
-                <img src="img/about/img-section4-1.webp" class="about__contenedor--imgpad rotater">
+                <img src="img/about/img-section4-1.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.1" width="350" height="auto">
                 <div class="about__contenedor--info">
                     <div class="about__contenedor--tittle">
                         <p>Dar de comer bien en todos los sentidos</p>
@@ -91,7 +91,7 @@ $excludeSubHeader = true;
             </div>
 
             <div class="about__contenedor--padh padding-top14rem">
-                <img src="img/about/img-section4-2.webp" class="about__contenedor--imgpad rotatel">
+                <img src="img/about/img-section4-2.webp" class="about__contenedor--imgpad rotatel" alt="Imagen Seccion 4.2" width="350" height="auto">
                 <div class="about__contenedor--info">
                     <div class="about__contenedor--tittle">
                         <p>Ofrecer un bonus de tiempo extra para ti</p>
@@ -106,7 +106,7 @@ $excludeSubHeader = true;
             </div>
 
             <div class="about__contenedor--padh">
-                <img src="img/about/img-section4-3.webp" class="about__contenedor--imgpad rotater">
+                <img src="img/about/img-section4-3.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.3" width="350" height="auto">
                 <div class="about__contenedor--info">
                     <div class="about__contenedor--tittle">
                         <p>Cocinar, escuchar, volver a cocinar</p>
@@ -125,6 +125,6 @@ $excludeSubHeader = true;
     <!-- Section 5 -->
     <div class="about__contenedor">
         <div class="about__contenedor--padf">
-            <img src="img/about/img-section5.webp"  class="about__contenedor--padf--img">
+            <img src="img/about/img-section5.webp"  class="about__contenedor--padf--img" alt="Imagen Seccion 5" width="auto" height="auto">
         </div>
     </div>

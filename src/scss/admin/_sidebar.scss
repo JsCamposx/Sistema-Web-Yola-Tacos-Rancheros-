@@ -20,7 +20,7 @@
 
 
         @include m.desktopmx{
-            left: -30rem;
+            left: -30%;
         }
 
         @include m.telefonomx{
@@ -41,8 +41,8 @@
                 position: relative;
                 width: 100%;
                 list-style: none;
-                border-top-left-radius: 30px;
-                border-bottom-left-radius: 30px;
+                border-top-left-radius: 3rem;
+                border-bottom-left-radius: 3rem;
 
                 &:hover,
                 &.hovered {
@@ -73,7 +73,7 @@
 
 
         &--active{
-            width: 30rem;
+            width: 20%;
             
 
             @include m.desktopmx{

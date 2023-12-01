@@ -22,7 +22,7 @@
     value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>"
     class="dashboard__buscador--input"
     >
-        <button type="submit" class="dashboard__buscador--button"><i class="fa-solid fa-magnifying-glass" style="color: #FFF;"></i></button>
+        <button type="submit" class="dashboard__buscador--button"><i class="fa-solid fa-magnifying-glass" style="color: #FFF;" aria-label="Buscar-button"></i></button>
     </form>
     </div>
 
@@ -38,7 +38,7 @@
                 <a class="card" data-name="<?php echo $platillo->nombre; ?>">
             <form action="/admin/platillos/editar" method="get">
                 <input type="hidden" name="id" value="<?php echo $platillo->id; ?>">
-                <button class="editar-button" href="/admin/platillos/editar?id=<?php echo $platillo->id; ?>">
+                <button class="editar-button" href="/admin/platillos/editar?id=<?php echo $platillo->id; ?>" aria-label="Editar-button">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 18 18" version="1.1">
                         <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="Rounded" transform="translate(-579.000000, -2771.000000)">
@@ -58,13 +58,13 @@
 
             <form class="contenedor_boton" method="POST" action="/admin/platillos/eliminar" >
                 <input type="hidden" name="id" value="<?php echo $platillo->id; ?>">
-                <button class="delete-button">
+                <button class="delete-button" aria-label="Borrar-button">
                     <svg class="delete-svgIcon" viewBox="0 0 448 512">
                         <path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"></path>
                     </svg>
                 </button>
             </form>
-            <img src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="" />
+            <img src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="300" height="300" />
             <div class="card__overlay">
                 <div class="card__header">
                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     

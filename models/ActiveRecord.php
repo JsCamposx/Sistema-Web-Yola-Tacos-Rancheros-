@@ -115,7 +115,7 @@ class ActiveRecord
     //Paginar registros
     public static function paginar($por_pagina, $offset)
     {
-        $query = "SELECT * FROM " . static::$tabla . " ORDER BY id DESC LIMIT ${por_pagina} OFFSET ${offset}";
+       $query = "SELECT * FROM " . static::$tabla . " ORDER BY id DESC LIMIT {$por_pagina} OFFSET {$offset}";
         $resultado = self::consultarSQL($query);
         return $resultado;
     }
@@ -124,7 +124,7 @@ class ActiveRecord
     public static function paginarf($valor, $por_pagina, $offset)
     {
 
-        $query = "SELECT * FROM " . static::$tabla . "WHERE nombre LIKE '%{$valor}%' LIMIT ${por_pagina} OFFSET ${offset}";
+        $query = "SELECT * FROM " . static::$tabla . "WHERE nombre LIKE '%{$valor}%' LIMIT {$por_pagina} OFFSET {$offset}";
 
 
         $resultado = self::consultarSQL($query);
@@ -156,14 +156,14 @@ class ActiveRecord
     // Busca un registro por su id
     public static function find($id)
     {
-        $query = "SELECT * FROM " . static::$tabla  . " WHERE id = ${id}";
+        $query = "SELECT * FROM " . static::$tabla  . " WHERE id = {$id}";
         $resultado = self::consultarSQL($query);
         return array_shift($resultado);
     }
 
     public static function search($nombre)
     {
-        $query = "SELECT * FROM " . static::$tabla . " WHERE nombre LIKE '%${nombre}%'";
+        $query = "SELECT * FROM " . static::$tabla . " WHERE nombre LIKE '%{$nombre}%'";
         $resultado = self::consultarSQL($query);
         return $resultado;
     }
@@ -171,7 +171,7 @@ class ActiveRecord
     // Obtener Registros con cierta cantidad
     public static function get($limite)
     {
-        $query = "SELECT * FROM " . static::$tabla . " LIMIT ${limite} ORDER BY id DESC";
+        $query = "SELECT * FROM " . static::$tabla . " LIMIT {$limite} ORDER BY id DESC";
         $resultado = self::consultarSQL($query);
         return array_shift($resultado);
     }
@@ -179,7 +179,7 @@ class ActiveRecord
     // Busqueda Where con Columna 
     public static function where($columna, $valor)
     {
-        $query = "SELECT * FROM " . static::$tabla . " WHERE ${columna} = '${valor}'";
+        $query = "SELECT * FROM " . static::$tabla . " WHERE {$columna} = '{$valor}'";
         $resultado = self::consultarSQL($query);
         return array_shift($resultado);
     }

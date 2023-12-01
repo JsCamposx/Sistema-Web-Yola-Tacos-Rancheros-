@@ -347,6 +347,7 @@ if (currentPage === '/admin/eventos/crear') {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev",
 				},
+				
 				breakpoints: {
 					236: {
 						slidesPerView: 2,
@@ -447,20 +448,6 @@ if (currentPage === '/admin/eventos/crear') {
 	}
 
 
-	window.addEventListener("resize", function () {
-		if (swiperPlatillos !== null) {
-			swiperPlatillos.destroy();
-			initSwiperPlatillos();
-		}
-		if (swiperBebidas !== null) {
-			swiperBebidas.destroy();
-			initSwiperBebidas();
-		}
-		if (swiperOtros !== null) {
-			swiperOtros.destroy();
-			initSwiperOtros();
-		}
-	});
 
 	//evitar post de botones
 	document.addEventListener('DOMContentLoaded', function () {

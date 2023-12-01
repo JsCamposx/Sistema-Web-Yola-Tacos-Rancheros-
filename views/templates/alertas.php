@@ -1,11 +1,11 @@
 <?php
-    foreach($alertas as $key => $alerta) {
-        foreach($alerta as $mensaje){
-
+foreach ($alertas as $tipo => $mensajes) {
+    foreach ($mensajes as $mensaje) {
 ?>
-    <div class="alerta alerta__<?php echo $key; ?>"><?php echo $mensaje; ?></div>
+        <div class="alerta alerta__<?php echo $tipo; ?>" role="alert">
+            <p><?php echo $mensaje; ?></p>
+        </div>
 <?php
-        }
     }
-
+}
 ?>
