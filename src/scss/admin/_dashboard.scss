@@ -69,7 +69,7 @@
         }
 
         &--active {
-            width: calc(100% - 30rem);
+            width: calc(100% - 20%);
             left: 20%;
 
             @include m.desktopmx {

@@ -1,7 +1,7 @@
 <div class="header__contenido">
     <div class="header__img">
         <a href="/login" aria-label="Enlace al inicio de sesión">
-            <img src="/build/img/Logo3.webp" class="header__imagen" alt="Imagen de la navegación">
+        
         </a>
     </div>
 
@@ -18,7 +18,7 @@
                 </a>
             </li>
             <li>
-                <a class="header__nav__txt" href="/404">
+                <a class="header__nav__txt" href="/como-funciona">
                     Cómo funciona
                 </a>
             </li>

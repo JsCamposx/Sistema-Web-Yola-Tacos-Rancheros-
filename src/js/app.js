@@ -1,8 +1,9 @@
-import './carousel';
+import './caruselAdmin-Layout';
 import './selection';
 import './sidebar';
 import './alertas';
 import './scroll';
-import './carouselHeader';
+import './caruselLayout';
 import './navbar';
+
 

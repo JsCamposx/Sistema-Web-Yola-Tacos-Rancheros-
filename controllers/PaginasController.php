@@ -42,4 +42,16 @@ class PaginasController
             'titulo' => 'Carta'
         ]);
     }
+    
+
+    public static function comoFunciona(Router $router)
+    {
+
+
+        $router->render('paginas/como-funciona', [
+            'titulo' => 'Questions'
+        ]);
+    }
+
+
 }
