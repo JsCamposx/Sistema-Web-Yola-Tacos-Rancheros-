@@ -62,7 +62,10 @@ $router->get('/admin/registrados', [RegistradosController::class, 'index']);
 
 // Área Pública
 $router->get('/carta',  [PaginasController::class, 'platos']);
+<<<<<<< HEAD
 $router->get('/como-funciona', [PaginasController::class, 'comoFunciona']);
+=======
+>>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
 $router->get('/about',  [PaginasController::class, 'about']);
 $router->get('/404', [PaginasController::class, 'error']);
 

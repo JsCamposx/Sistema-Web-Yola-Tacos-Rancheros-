@@ -540,6 +540,15 @@ h3 {
   }
 }
 
+.margin7rem {
+  margin-top: 9.5rem;
+}
+@media (max-width: 1024px) {
+  .margin7rem {
+    margin-top: 5.5rem;
+  }
+}
+
 .background {
   background-color: #141019;
   background: radial-gradient(at 50% -20%, #908392, #0d060e) fixed;
@@ -1313,7 +1322,10 @@ h3 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   width: 100%;
+=======
+>>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
 }
 .h__contenedor__card {
   display: flex;
@@ -1613,7 +1625,11 @@ h3 {
   }
 }
 .dashboard__contenido--active {
+<<<<<<< HEAD
   width: 80%;
+=======
+  width: calc(100% - 30rem);
+>>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
   left: 20%;
 }
 @media (max-width: 1024px) {

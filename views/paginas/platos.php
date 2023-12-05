@@ -38,9 +38,14 @@ $excludeSubHeader = true;
         </div>
     </div>
  
+<<<<<<< HEAD
     <div class="swiper-container"> 
     <div class="h__contenedor flex-row margin7rem" id="miCarrusel">
        
+=======
+    <div class="h__contenedor flex-row margin7rem" id="miCarrusel">
+   
+>>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
         <div class="swiper-wrapper">
             <div class="h__contenedor__card swiper-slide">
                 <div class="h__contenedor__card--img">
@@ -94,7 +99,11 @@ $excludeSubHeader = true;
          
     </div>
     <div class="swiper-pagination"></div>
+<<<<<<< HEAD
 </div>
+=======
+
+>>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
 
 
     <style>
@@ -125,11 +134,14 @@ $excludeSubHeader = true;
             position: static !important;
         }
 
+<<<<<<< HEAD
         .swiper-container{
             overflow: hidden !important;
         }
         
 
+=======
+>>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
     </style>
 
     
