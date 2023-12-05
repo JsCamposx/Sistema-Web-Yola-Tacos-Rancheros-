@@ -71,7 +71,6 @@ $excludeSubHeader = true;
         </div>
     </div>
 
-<<<<<<< HEAD
     <!-- Section 4 -->
     <div class="swiper-container">
         <div class="about__contenedor">
@@ -91,16 +90,6 @@ $excludeSubHeader = true;
                             </div>
 
                         </div>
-=======
-    <!-- Section 4 (Falta terminar esta area responsive)-->
-    <div class="about__contenedor">
-        <div class="about__contenedor--padm">
-            <div class="about__contenedor--padh">
-                <img src="img/about/img-section4-1.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.1" width="350" height="auto">
-                <div class="about__contenedor--info">
-                    <div class="about__contenedor--tittle">
-                        <p>Dar de comer bien en todos los sentidos</p>
->>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
                     </div>
 
                     <div class="about__contenedor--padh padding-top14rem swiper-slide">
@@ -137,38 +126,6 @@ $excludeSubHeader = true;
                 </div>
             </div>
 
-<<<<<<< HEAD
-=======
-            <div class="about__contenedor--padh padding-top14rem">
-                <img src="img/about/img-section4-2.webp" class="about__contenedor--imgpad rotatel" alt="Imagen Seccion 4.2" width="350" height="auto">
-                <div class="about__contenedor--info">
-                    <div class="about__contenedor--tittle">
-                        <p>Ofrecer un bonus de tiempo extra para ti</p>
-                    </div>
-                    <div class="about__contenedor--txt">
-                        <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
-                            contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
-                            Ipsum es que tiene una distribución más</p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="about__contenedor--padh">
-                <img src="img/about/img-section4-3.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.3" width="350" height="auto">
-                <div class="about__contenedor--info">
-                    <div class="about__contenedor--tittle">
-                        <p>Cocinar, escuchar, volver a cocinar</p>
-                    </div>
-                    <div class="about__contenedor--txt">
-                        <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el
-                            contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem
-                            Ipsum es que tiene una distribución más o menos normal de las letras, al contrario
-                            de usar textos </p>
-                    </div>
-                </div>
-            </div>
->>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
         </div>
         <div class="swiper-pagination"></div>
     </div>
@@ -221,10 +178,6 @@ $excludeSubHeader = true;
     <!-- Section 5 -->
     <div class="about__contenedor">
         <div class="about__contenedor--padf">
-<<<<<<< HEAD
             <img src="img/about/img-section5.webp" class="about__contenedor--padf--img" alt="Imagen Seccion 5" width="auto" height="auto">
-=======
-            <img src="img/about/img-section5.webp"  class="about__contenedor--padf--img" alt="Imagen Seccion 5" width="auto" height="auto">
->>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
         </div>
     </div>

@@ -69,11 +69,7 @@
         }
 
         &--active {
-<<<<<<< HEAD
             width: calc(100% - 20%);
-=======
-            width: calc(100% - 30rem);
->>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
             left: 20%;
 
             @include m.desktopmx {

@@ -1,11 +1,7 @@
 <div class="header__contenido">
     <div class="header__img">
         <a href="/login" aria-label="Enlace al inicio de sesión">
-<<<<<<< HEAD
         
-=======
-            <img src="/build/img/Logo3.webp" class="header__imagen" alt="Imagen de la navegación">
->>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
         </a>
     </div>
 
@@ -22,11 +18,7 @@
                 </a>
             </li>
             <li>
-<<<<<<< HEAD
                 <a class="header__nav__txt" href="/como-funciona">
-=======
-                <a class="header__nav__txt" href="/404">
->>>>>>> ffd807bf40211838fd535809e8e26f26991c9ae4
                     Cómo funciona
                 </a>
             </li>
