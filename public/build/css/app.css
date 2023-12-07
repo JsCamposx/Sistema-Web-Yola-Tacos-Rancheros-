@@ -528,7 +528,7 @@ h3 {
 }
 
 .margin12rem {
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .margin7rem {
@@ -540,52 +540,6 @@ h3 {
   }
 }
 
-.background {
-  background-color: #141019;
-  background: radial-gradient(at 50% -20%, #908392, #0d060e) fixed;
-}
-
-#handboy {
-  animation: swing ease-in-out 1.3s infinite alternate;
-  transform-origin: 98% 98%;
-  transform-box: fill-box;
-}
-
-#girllight {
-  animation: swing ease-in-out 1.3s infinite alternate;
-  transform-origin: 0% 97%;
-  transform-box: fill-box;
-}
-
-#hairgirl {
-  animation: swinghair ease-in-out 1.3s infinite alternate;
-  transform-origin: 60% 0%;
-  transform-box: fill-box;
-}
-
-#zero {
-  transform-origin: bottom;
-  transform-box: fill-box;
-}
-
-/*************swing************/
-@keyframes swing {
-  0% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(-10deg);
-  }
-}
-/*************swing hair************/
-@keyframes swinghair {
-  0% {
-    transform: rotate(6deg);
-  }
-  100% {
-    transform: rotate(-6deg);
-  }
-}
 .fix-h {
   display: flex;
   justify-content: center;
@@ -599,19 +553,193 @@ h3 {
 }
 
 .platos__main {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   width: min(95%, 130rem);
+  color: #383a33;
 }
-.platos__playist {
+.platos__contenedor {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 2.4rem;
+       column-gap: 2.4rem;
+  row-gap: 4rem;
   width: 100%;
+  height: 100%;
+}
+@media (max-width: 1024px) {
+  .platos__contenedor {
+    grid-template-columns: 1fr;
+    grid-gap: 0.8rem;
+    gap: 0.8rem;
+  }
+}
+.platos__card {
   display: flex;
-  flex-direction: row;
-}
-.platos__playist--img {
-  border-radius: 6rem;
-  max-width: 35rem;
+  flex-direction: column;
   width: 100%;
+  height: 100%;
+  min-height: 40.3rem;
+  background-color: #FFFFFF;
+  border-radius: 3rem;
+}
+@media (max-width: 1024px) {
+  .platos__card {
+    flex-direction: row;
+    min-height: 16rem;
+  }
+}
+.platos__card--cimg {
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+  height: 24.3rem;
+  display: flex;
+  align-items: flex-end;
+}
+@media (max-width: 1024px) {
+  .platos__card--cimg {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+.platos__card--img {
+  border-radius: 3rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 1024px) {
+  .platos__card--img {
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+  }
+}
+.platos__card--txt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding: 1.6rem 1.4rem 1.2rem;
+  font-size: 1.8rem;
+}
+@media (max-width: 1024px) {
+  .platos__card--txt {
+    justify-content: flex-start;
+  }
+}
+.platos__card--txt p {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+}
+@media (max-width: 630px) {
+  .platos__card--txt p {
+    display: none;
+  }
+}
+.platos__card--tittle {
+  display: none;
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .platos__card--tittle {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+}
+.platos__card--span {
+  display: static;
+  margin-bottom: 1.8rem;
+  margin-left: 1.6rem;
+  background-color: rgba(23, 51, 12, 0.7921568627);
+  color: #fff;
+  position: absolute;
+  padding: 0.6rem 0.6rem 0.6rem;
+  border-radius: 0.8rem;
+}
+@media (max-width: 1024px) {
+  .platos__card--span {
+    display: none;
+  }
+}
+.platos__card--foot {
+  border-radius: 0 0 3rem 3rem;
+  padding: 1.2rem 1.6rem 1.6rem;
+  transition: 0.4s;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.platos__card--foot p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.platos__card--btn {
+  border: none;
+  background-color: transparent;
+  width: 5rem;
+  height: 5rem;
+  color: #17330c;
+}
+
+.fontsize28px {
+  font-size: 2.8rem;
+}
+
+.terminos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  line-height: normal;
+  color: #383a33;
+  background-color: #FFFFFF;
+  padding-bottom: 4rem;
+}
+@media (max-width: 1024px) {
+  .terminos {
+    padding-top: 2rem;
+  }
+}
+.terminos__contenedor {
+  width: min(90%, 96rem);
+}
+.terminos__contenedor li {
+  list-style-type: none;
+}
+.terminos__contenedor ol {
+  padding-left: 0rem;
+}
+
+.fontsize36px {
+  display: flex;
+  justify-content: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  font-size: 3.6rem;
+  margin-bottom: 8rem;
+}
+@media (max-width: 1024px) {
+  .fontsize36px {
+    font-size: 2.6rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.fontsize18px {
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 .formulario {
@@ -912,12 +1040,15 @@ h3 {
   height: 6.5rem;
   margin-right: 0;
 }
+.header__img {
+  margin-left: 3rem;
+}
 .header__contenido {
+  display: flex;
+  align-items: center;
   position: fixed;
   border-radius: 9rem;
   z-index: 10;
-  display: flex;
-  align-items: center;
   background-color: #FFFFFF;
   width: 100%;
   height: 6rem;
@@ -931,41 +1062,38 @@ h3 {
     max-width: 134.4rem;
   }
 }
+.header__nav {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
 .header__nav ul {
   display: flex;
   list-style-type: none;
-  padding: 0;
+  padding: 0rem;
 }
 .header__nav__txt {
   display: none;
+  padding: 1.5rem;
+  color: #383a33;
 }
 @media (min-width: 1024px) {
   .header__nav__txt {
-    margin-left: 2rem;
-    color: #1a1b15;
     display: block;
   }
 }
 .header__boton {
-  margin-left: auto;
-  margin-right: 1rem;
+  margin-right: 0rem;
   border: none;
   background: none;
-  height: 3.5rem;
-  width: 3.5rem;
-}
-@media (min-width: 1024px) {
-  .header__boton {
-    height: 4.5rem;
-    width: 4.5rem;
-    margin-right: 4rem;
-  }
 }
 .header__boton--size {
   font-size: 3.3rem;
 }
 @media (min-width: 1024px) {
   .header__boton--size {
+    margin-right: 2rem;
     font-size: 4.5rem;
   }
 }
@@ -981,6 +1109,10 @@ h3 {
   .header__boton--opciones {
     display: none;
   }
+}
+
+.hoveredPage {
+  font-weight: bold;
 }
 
 .footer__principal {

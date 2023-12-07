@@ -17,69 +17,77 @@
         margin-right: 0;
     }
 
+    &__img{
+        margin-left: 3rem;
+      
+        
+    }
+
  
    
     &__contenido{
-       
-        position: fixed; 
-        border-radius: 9rem;
-        z-index: 10;
         display: flex;
         align-items: center;
-        background-color: v.$blanco; 
+        position: fixed;
+        border-radius: 9rem;
+        z-index: 10;
+        background-color: v.$blanco;
         width: 100%;
         height: 6rem;
         outline: 1px solid #eae8e4;
         outline-offset: -1px;
-       
-
-        @include m.desktop{
+    
+        @include m.desktop {
             width: 90%;
             height: 7.2rem;
             max-width: 134.4rem;
         }
     }
 
+    &__nav{
+        align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+
+    
+    }
 
     &__nav ul{
        
         display: flex;
         list-style-type: none;
-        padding: 0;
+        padding: 0rem;
+
+       
       
         
     }
     
     &__nav__txt{
         display: none;
-       
+        padding: 1.5rem;
+        color: v.$kale;
 
         @include m.desktop{
-            margin-left: 2rem;
-        color: v.$negro;
+      
         display: block;
         }
     }
 
     &__boton{
-         margin-left: auto;
-         margin-right: 1rem;
+     
+        margin-right: 0rem;
         border: none;
         background: none;
        
-         height: 3.5rem;
-         width: 3.5rem;
-
-         @include m.desktop{
-            height: 4.5rem;
-            width: 4.5rem;
-            margin-right: 4rem;
-           }
+       
 
            &--size{
             font-size: 3.3rem;
 
             @include m.desktop{
+                margin-right: 2rem;
                 font-size: 4.5rem;
                }
            }
@@ -102,3 +110,8 @@
 
 }
 
+.hoveredPage{
+  font-weight: bold;
+   
+   
+}

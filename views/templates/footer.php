@@ -57,13 +57,13 @@
                     <img class="footer__redes__imagen--img" src="img/footer/icono.webp" alt="Ícono del pie de página" loading="lazy" width="100%" height="100%">
                 </div>
                 <div class="footer__redes__contenedor--botones">
-                    <a class="footer__redes__botones__boton1 footer__redes__botones " href="#" aria-label="Enlace a Facebook">
+                    <a class="footer__redes__botones__boton1 footer__redes__botones " href="https://www.facebook.com/YOLATACOSRANCHEROS" aria-label="Enlace a Facebook">
                         <span class="Ocultar">Enlace para dirigirse a Facebook</span>
                     </a>
                     <a class="footer__redes__botones__boton2 footer__redes__botones " href="#" aria-label="Enlace a Twitter">
                         <span class="Ocultar">Enlace para dirigirse a Twitter</span>
                     </a>
-                    <a class="footer__redes__botones__boton3 footer__redes__botones " href="#" aria-label="Enlace a Instagram">
+                    <a class="footer__redes__botones__boton3 footer__redes__botones " href="https://www.instagram.com/yola_tacosrancheros/" aria-label="Enlace a Instagram">
                         <span class="Ocultar">Enlace para dirigirse a Instagram</span>
                     </a>
                 </div>
@@ -77,14 +77,12 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="#">Términos y condiciones de uso</a>
+                            <a href="/condiciones-de-uso">Términos y condiciones de uso</a>
                         </li>
                         <li>
                             <a href="#">Políticas de privacidad</a>
                         </li>
-                        <li>
-                            <a href="#">Avisos Legales</a>
-                        </li>
+                        
                         <li>
                             <a href="#">Cookies</a>
                         </li>

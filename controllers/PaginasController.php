@@ -1,9 +1,9 @@
 <?php
 
 namespace Controllers;
-
+use Model\Platillo;
 use MVC\Router;
-
+use Model\Categoria;
 class PaginasController
 {
     public static function index(Router $router)
@@ -37,9 +37,12 @@ class PaginasController
     public static function platos(Router $router)
     {
 
-
+        $categorias = Categoria::all();
+        $platillos = Platillo::all();
         $router->render('paginas/platos', [
-            'titulo' => 'Carta'
+            'titulo' => 'Platos',
+            'categorias' => $categorias,
+            'platillos' => $platillos
         ]);
     }
     
@@ -50,6 +53,15 @@ class PaginasController
 
         $router->render('paginas/como-funciona', [
             'titulo' => 'Questions'
+        ]);
+    }
+
+    public static function condiciones(Router $router)
+    {
+     
+        $router->render('paginas/condiciones-de-uso', [
+            'titulo' => 'Condiciones de Uso',
+         
         ]);
     }
 

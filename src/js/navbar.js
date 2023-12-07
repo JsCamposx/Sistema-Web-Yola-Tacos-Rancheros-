@@ -10,12 +10,12 @@ function cambiarColorByClass(className, color) {
 var defaultColor = '#F23545';
 cambiarColorByClass('icon-container', defaultColor);
 
-if (currentPage === '/carta') {
+if (currentPage === '/platos') {
     var nuevoColor = '#17330c';
     cambiarColorByClass('icon-container', nuevoColor);
 }
 
-if (currentPage === '/about') {
+if (currentPage === '/about' || currentPage === '/condiciones-de-uso') {
     var nuevoColor = '#383a33';
     cambiarColorByClass('icon-container', nuevoColor);
 }
