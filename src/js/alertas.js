@@ -10,3 +10,14 @@ window.mostrarAlertaTipoPlatillo = function () {
         }
     });
 };
+
+
+window.mostrarAlertaNuevaFuncion = function () {
+    Swal.fire({
+        title: 'Lo implementaremos pronto',
+        text: 'No puedes agregar este platillo, estamos trabajando en ello.',
+        icon: 'warning',
+        confirmButtonText: 'Ok',
+       
+    });
+};

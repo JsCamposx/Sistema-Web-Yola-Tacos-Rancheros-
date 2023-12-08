@@ -20,7 +20,7 @@
                             <span class="material-symbols-outlined circulos">
                                 check_circle
                             </span>
-                            <span>50% de pago por adelantado, el resto al recibir.</span>
+                            <span>50% de pago por adelantado</span>
                         </li>
                     </ul>
                 </div>

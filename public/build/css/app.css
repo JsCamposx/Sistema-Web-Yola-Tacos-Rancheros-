@@ -628,7 +628,6 @@ h3 {
   justify-content: space-between;
   padding: 1.6rem 1.4rem 1.2rem;
   font-size: 1.8rem;
-  overflow: hidden;
 }
 @media (max-width: 1024px) {
   .platos__card--txt {
@@ -646,7 +645,9 @@ h3 {
   margin-top: 0;
   margin-bottom: 0;
   display: block;
-  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 10rem;
+  max-width: 26rem;
 }
 @media (max-width: 630px) {
   .platos__card--txt p {
@@ -715,6 +716,18 @@ h3 {
   font-size: 2.8rem;
 }
 
+.highlight {
+  animation: highlightAnimation 1.25s ease-in-out;
+}
+
+@keyframes highlightAnimation {
+  0% {
+    background-color: #9c9d99;
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
 .terminos {
   display: flex;
   flex-direction: column;
