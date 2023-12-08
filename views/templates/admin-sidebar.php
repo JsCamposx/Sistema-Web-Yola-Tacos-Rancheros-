@@ -6,9 +6,9 @@
             <li>
                     <a href="">
                         <span class="sidebar__icon">
-                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-solid fa-bag-shopping"></i>
                         </span>
-                        <span class="sidebar__tittle">Yola-Tacos Rancheros</span>
+                        <span class="sidebar__tittle">Yola</span>
                     </a>
                 </li>
 

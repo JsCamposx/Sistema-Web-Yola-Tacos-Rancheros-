@@ -4,7 +4,7 @@
 <div class="header__contenido icon-container">
    <div >
         <a  href="/login" aria-label="Enlace al inicio de sesión">
-            <img >
+           
         </a>
     </div>  
 

@@ -188,19 +188,27 @@
         margin-bottom: 2rem;
         display: flex;
         justify-content: center;
-
+        height: 6.2rem;
         @include m.desktop{
             justify-content: start;
             margin-bottom: 4rem;
            }
         &__boton{
-           
+            cursor: pointer;
             width: 70%;
             background: v.$color1;
             border-radius: 9rem;
             color: #fff;
             padding: 2rem;
             border: none;
+            
+            &:hover{
+                background-color: #fff;
+                color: v.$color1;
+                border: 2px solid v.$color1;
+                font-weight: bold;
+                
+            }
 
 
             @include m.desktop{
@@ -340,5 +348,11 @@
 
 .backgroundGreen{
     background-color: #17330c;
+
+    &:hover{
+        color: #17330c;
+        border: 2px solid #17330c;
+        font-weight: bold;
+    }
 }
 

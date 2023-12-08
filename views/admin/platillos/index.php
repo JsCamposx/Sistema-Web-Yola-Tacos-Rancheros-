@@ -64,7 +64,7 @@
                     </svg>
                 </button>
             </form>
-            <img src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="300" height="300" />
+            <img src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="100%" height="100%" />
             <div class="card__overlay">
                 <div class="card__header">
                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     

@@ -13,10 +13,12 @@
         position: relative;
         margin-top: 2rem;
         margin-bottom: 3rem;
-        width: 100%;
-
-        @include m.telefonomx {
-            width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      
+        @include m.desktopmx {
+            width: 100%;
         }
 
         &--input {
@@ -40,7 +42,7 @@
             width: 5rem;
             height: 4.5rem;
             border: none;
-
+          
             position: absolute;
             top: 0;
             right: 0;
@@ -69,11 +71,11 @@
         }
 
         &--active {
-            width: calc(100% - 20%);
-            left: 20%;
-
+            width: calc(100% - 30rem);
+            left: 30rem;
+            overflow: hidden;
             @include m.desktopmx {
-                left: 85%;
+                left: 30rem;
             }
         }
     }

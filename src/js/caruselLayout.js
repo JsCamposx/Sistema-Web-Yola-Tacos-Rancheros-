@@ -49,7 +49,7 @@ if (currentPage === '/about') {
 }
 
 
-if (currentPage === '/carta') {
+if (currentPage === '/platos') {
     console.log('Script carusel loaded (Page-Carta)');
 
     var mySwiper;
