@@ -125,11 +125,15 @@ $excludeSubHeader = true;
         }
 
         .swiper-pagination {
-            position: static !important;
+            position: static ;
         }
 
         .swiper-container {
-            overflow: hidden !important;
+            overflow: hidden ;
+        }
+
+        .swiper-wrapper{
+            box-sizing: inherit ;
         }
     </style>
 
@@ -170,7 +174,7 @@ $excludeSubHeader = true;
                                 </div>
                               
                                 <div class="platos__card--txt">
-                                    <h4 class="platos__card--tittle"><?php echo $platillo->nombre; ?></h4>
+                                    <h2 class="platos__card--tittle"><?php echo $platillo->nombre; ?></h2>
                                     <p><?php echo $platillo->descripcion; ?></p>
                                 </div>
 

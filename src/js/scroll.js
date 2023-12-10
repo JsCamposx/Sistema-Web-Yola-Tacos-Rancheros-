@@ -16,7 +16,10 @@ if (targetPages.includes(currentPage)) {
     }
 }
 
+const targetPages1 = ['/login', '/olvide', '/registro', '/restablecer', '/confirmar', '/mensaje', '/platos'];
 
+if (targetPages1.includes(currentPage)) {
+    console.log('Script Highlight loaded!');
 document.addEventListener('DOMContentLoaded', function () {
     var btnHeader = document.getElementById('btnHeader');
     btnHeader.addEventListener('click', function () {
@@ -49,3 +52,5 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+}

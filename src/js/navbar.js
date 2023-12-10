@@ -4,6 +4,7 @@ function cambiarColorByClass(className, color) {
     var iconos = document.querySelectorAll('.' + className);
     iconos.forEach(function (icono) {
         icono.style.color = color;
+        icono.style.fill = color;
     });
 }
 

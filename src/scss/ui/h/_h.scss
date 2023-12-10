@@ -44,10 +44,10 @@
 
 
     &__center{
-        max-width: 134.4rem;
+        max-width: 130rem;
         margin: auto;
         position: relative;
-        
+       
        
     }
 
@@ -60,7 +60,8 @@
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-    
+      
+
         &__card{
             display: flex;
          
@@ -194,6 +195,9 @@
             margin-bottom: 4rem;
            }
         &__boton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
             cursor: pointer;
             width: 70%;
             background: v.$color1;
@@ -214,7 +218,12 @@
             @include m.desktop{
                 width: 25rem;
                 padding: 2rem 4.8rem;
+                font-size: 1.8rem;
                 
+               }
+
+               @include m.telefonomx{
+                font-size: 1.4rem;
                }
           } 
         

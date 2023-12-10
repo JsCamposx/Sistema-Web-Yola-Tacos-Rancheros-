@@ -1,0 +1,224 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+.funciona {
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+
+
+    &__main {
+        width: min(95%, 130rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        color: v.$kale;
+
+
+        & h1 {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+
+            @include m.desktopmx {
+                margin-top: 2rem;
+            }
+        }
+    }
+
+    &__contenedor {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        background-color: v.$blanco;
+        border-radius: 6rem;
+        padding-bottom: 4rem;
+
+        @include m.desktopmx {
+            flex-wrap: wrap;
+        }
+
+
+
+        &__padl {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            flex-shrink: 0;
+            padding-top: 8rem;
+            padding-left: 8rem;
+            padding-right: 1.6rem;
+
+            @include m.desktopmx {
+                padding-left: 2.4rem;
+                padding-right: 2.4rem;
+                width: 100%;
+                padding-bottom: 4rem;
+                order: 1;
+            }
+
+
+            &--tittle {
+
+                margin-bottom: 1.6rem;
+
+
+
+
+                & h2 {
+                    margin: 0;
+                    font-size: 3.6rem;
+                    font-weight: 900;
+                    line-height: 120%;
+
+                    @include m.desktopmx {
+                        font-size: 2.4rem;
+                    }
+                }
+            }
+
+            &--txt {
+                padding-right: 4rem;
+                margin-bottom: 1.6rem;
+
+                & p {
+                    margin: 0;
+                    font-size: 1.8rem;
+                    font-weight: 400;
+                    line-height: 2.4rem;
+
+                    @include m.desktopmx {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+
+        &__padr {
+            width: 50%;
+            flex-shrink: 0;
+
+            margin-left: 6rem;
+            margin-top: -25rem;
+
+            @include m.desktopmx {
+                margin-bottom: -70%;
+                margin-left: 0;
+                margin-top: 5rem;
+                order: 2;
+                width: 100%;
+                -webkit-transform: translateX(-1rem);
+                transform: translateX(-1rem);
+            }
+
+            &--img {
+
+                border-radius: 18rem;
+                -webkit-transform: rotate(10deg);
+                transform: rotate(10deg);
+
+                @include m.desktopmx {
+                    border-radius: 5rem;
+                    height: auto;
+                    width: calc(100% + 8rem);
+
+                }
+
+            }
+        }
+    }
+
+
+
+    &__contenedorc {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: transparent;
+        gap: 2rem;
+
+
+
+        &--pad {
+            width: 41.666%;
+            border-radius: 6rem;
+            padding: 4rem;
+            background-color: v.$blanco;
+            text-align: center;
+            min-height: 56rem;
+
+
+            @include m.desktopmx {
+                width: 100%;
+                border-radius: 3rem;
+                min-height: 40.8rem;
+                max-width: 53rem;
+                padding: 3.2rem;
+            }
+        }
+
+        &--tittle {
+            & h3 {
+                font-size: 2.8rem;
+                font-weight: 700;
+                line-height: normal;
+                margin-bottom: 2.4rem;
+                margin-top: 0rem;
+                @include m.desktopmx {
+                    font-size: 2rem;
+                    
+                }
+            }
+        }
+
+        &--txt {
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 2.4rem;
+
+            & p {
+                margin-top: 0rem;
+            }
+         
+            @include m.desktopmx {
+                font-size: 1.4rem;
+                line-height: 2.3rem;
+                
+            }
+        }
+
+        &--img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 4rem;
+
+
+            @include m.desktopmx {
+                margin-bottom: 2.4rem;
+            
+            }
+
+            & img {
+                width: 18rem;
+                height: 18rem;
+
+                @include m.desktopmx {
+                    width: 14rem;
+                    height: 14rem;
+                }
+            }
+        }
+    }
+}
+
+.color1 {
+    color: v.$color1;
+    margin-top: 1rem;
+    margin-bottom: 4.2rem;
+}

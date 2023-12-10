@@ -36,11 +36,15 @@
         height: 6rem;
         outline: 1px solid #eae8e4;
         outline-offset: -1px;
+
+       & svg {
+        margin-left: 2rem;
+       }
     
         @include m.desktop {
             width: 90%;
             height: 7.2rem;
-            max-width: 134.4rem;
+            max-width: 130rem;
         }
     }
 
@@ -67,8 +71,10 @@
     &__nav__txt{
         display: none;
         padding: 1.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.49rem;
         color: v.$kale;
-
+        
         @include m.desktop{
       
         display: block;
