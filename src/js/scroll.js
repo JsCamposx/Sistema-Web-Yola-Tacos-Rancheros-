@@ -16,10 +16,20 @@ if (targetPages.includes(currentPage)) {
     }
 }
 
-const targetPages1 = ['/login', '/olvide', '/registro', '/restablecer', '/confirmar', '/mensaje', '/platos'];
+   
 
-if (targetPages1.includes(currentPage)) {
+if(currentPage == '/platos'){
     console.log('Script Highlight loaded!');
+    document.addEventListener('DOMContentLoaded', function () {
+        const btnAdd = document.querySelectorAll('.platos__card--btn');
+        btnAdd.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                mostrarAlertaNuevaFuncion();
+            });
+        });
+    });
+
+
 document.addEventListener('DOMContentLoaded', function () {
     var btnHeader = document.getElementById('btnHeader');
     btnHeader.addEventListener('click', function () {
@@ -42,15 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-
-document.addEventListener('DOMContentLoaded', function () {
-    const btnAdd = document.querySelectorAll('.platos__card--btn');
-    btnAdd.forEach(function (btn) {
-        btn.addEventListener('click', function () {
-            mostrarAlertaNuevaFuncion();
-        });
-    });
-});
-
 }
+
+
+
