@@ -303,7 +303,62 @@ template {
 }
 
 /** Media Queries **/
+@font-face {
+  font-family: "Outfit";
+  src: url("/build/fonts/Outfit-ExtraBold.woff2") format("woff2"), url("/build/fonts/Outfit-ExtraBold.woff") format("woff"), url("/build/fonts/Outfit-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/build/fonts/Outfit-SemiBold.woff2") format("woff2"), url("/build/fonts/Outfit-SemiBold.woff") format("woff"), url("/build/fonts/Outfit-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/build/fonts/Outfit-Bold.woff2") format("woff2"), url("/build/fonts/Outfit-Bold.woff") format("woff"), url("/build/fonts/Outfit-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/build/fonts/Outfit-Medium.woff2") format("woff2"), url("/build/fonts/Outfit-Medium.woff") format("woff"), url("/build/fonts/Outfit-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/build/fonts/Outfit-Thin.woff2") format("woff2"), url("/build/fonts/Outfit-Thin.woff") format("woff"), url("/build/fonts/Outfit-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/build/fonts/Outfit-Regular.woff2") format("woff2"), url("/build/fonts/Outfit-Regular.woff") format("woff"), url("/build/fonts/Outfit-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/build/fonts/Outfit-Black.woff2") format("woff2"), url("/build/fonts/Outfit-Black.woff") format("woff"), url("/build/fonts/Outfit-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/build/fonts/Outfit-Light.woff2") format("woff2"), url("/build/fonts/Outfit-Light.woff") format("woff"), url("/build/fonts/Outfit-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/build/fonts/Outfit-ExtraLight.woff2") format("woff2"), url("/build/fonts/Outfit-ExtraLight.woff") format("woff"), url("/build/fonts/Outfit-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
 html {
+  font-family: Outfit;
   font-size: 62.5%;
   box-sizing: border-box;
   height: 100%;
@@ -314,7 +369,6 @@ html {
 }
 
 body {
-  font-family: "Outfit", sans-serif;
   font-size: 1.8rem;
   background-color: #f2f0ec;
   overflow-x: hidden;
@@ -1446,7 +1500,7 @@ h3 {
   line-height: 2;
   font-size: 1.2rem;
   color: #383a33;
-  font-weight: 350;
+  font-weight: 600;
 }
 @media (min-width: 1024px) {
   .footer__servicios__secciones li {
@@ -1457,6 +1511,7 @@ h3 {
 .footer__servicios__secciones a {
   text-decoration: none;
   color: #1E293B;
+  font-weight: 400;
 }
 .footer__servicios__secciones ul {
   padding: 0;
@@ -1538,13 +1593,13 @@ h3 {
   border: none;
 }
 .footer__redes__botones__boton1 {
-  background-image: url("../img/facebook_icon.webp");
+  background-image: url("/img/footer/facebook_icon.webp");
 }
 .footer__redes__botones__boton2 {
-  background-image: url("../img/twitter_icon.webp");
+  background-image: url("/img/footer/twitter_icon.webp");
 }
 .footer__redes__botones__boton3 {
-  background-image: url("../img/instagram_icon.webp");
+  background-image: url("/img/footer/instagram_icon.webp");
 }
 .footer__final {
   margin-top: 2rem;
@@ -1823,11 +1878,6 @@ h3 {
     width: 25rem;
     padding: 2rem 4.8rem;
     font-size: 1.8rem;
-  }
-}
-@media (max-width: 630px) {
-  .h__pad-izquierdo__cboton__boton {
-    font-size: 1.4rem;
   }
 }
 .h__pad-izquierdo__stars {
@@ -2251,6 +2301,7 @@ h3 {
   width: 30rem;
   height: 35rem;
   gap: 5rem;
+  color: #383a33;
 }
 
 .card__overlay {

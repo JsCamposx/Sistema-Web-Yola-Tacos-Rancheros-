@@ -110,7 +110,7 @@
       line-height: 2;
       font-size: 1.2rem;
       color: #383a33;
-      font-weight: 350;
+      font-weight: 600;
 
       @include m.desktop{
         font-size: 1.4rem;
@@ -122,7 +122,7 @@
     &__secciones a{
       text-decoration: none;
       color: v.$gris-oscuro;
- 
+      font-weight: 400;
     }
 
     &__secciones ul{
@@ -218,18 +218,18 @@
 
       &__boton1{
      
-        background-image: url('../img/facebook_icon.webp');
+        background-image: url('/img/footer/facebook_icon.webp');
       
    }
 
       &__boton2{
       
-        background-image: url('../img/twitter_icon.webp');
+        background-image: url('/img/footer/twitter_icon.webp');
       }
 
       &__boton3{
        
-        background-image: url('../img/instagram_icon.webp');
+        background-image: url('/img/footer/instagram_icon.webp');
       }
     }
   }
