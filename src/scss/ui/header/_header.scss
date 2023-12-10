@@ -32,13 +32,20 @@
         border-radius: 9rem;
         z-index: 10;
         background-color: v.$blanco;
-        width: 100%;
+        width: 90%;
         height: 6rem;
         outline: 1px solid #eae8e4;
         outline-offset: -1px;
 
        & svg {
         margin-left: 2rem;
+        max-width: 7rem;
+        max-height: 7rem;
+
+        @include m.desktopmx{
+            max-width: 6rem;
+            max-height: 6rem;
+        }
        }
     
         @include m.desktop {
@@ -102,7 +109,7 @@
           display: block;
            height: 3.5rem;
            width: 3.5rem;
-           margin-right: 3rem;
+           margin-right: 2rem;
            border: none;
            background-color: v.$blanco;
 

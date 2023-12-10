@@ -1273,13 +1273,21 @@ h3 {
   border-radius: 9rem;
   z-index: 10;
   background-color: #FFFFFF;
-  width: 100%;
+  width: 90%;
   height: 6rem;
   outline: 1px solid #eae8e4;
   outline-offset: -1px;
 }
 .header__contenido svg {
   margin-left: 2rem;
+  max-width: 7rem;
+  max-height: 7rem;
+}
+@media (max-width: 1024px) {
+  .header__contenido svg {
+    max-width: 6rem;
+    max-height: 6rem;
+  }
 }
 @media (min-width: 1024px) {
   .header__contenido {
@@ -1329,7 +1337,7 @@ h3 {
   display: block;
   height: 3.5rem;
   width: 3.5rem;
-  margin-right: 3rem;
+  margin-right: 2rem;
   border: none;
   background-color: #FFFFFF;
 }
@@ -1481,6 +1489,16 @@ h3 {
   border-radius: 3rem;
   padding: 1.6rem;
   margin-bottom: 0;
+}
+.footer__redes__imagen svg {
+  max-width: 12.5rem;
+  max-height: 12.5rem;
+}
+@media (max-width: 1024px) {
+  .footer__redes__imagen svg {
+    max-width: 8rem;
+    max-height: 8rem;
+  }
 }
 @media (min-width: 1024px) {
   .footer__redes__imagen {
