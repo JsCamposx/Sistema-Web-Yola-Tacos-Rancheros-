@@ -1,6 +1,4 @@
-<?php
-$loadFontAwesomeScript = true;
-?>
+
 
 <main class="auth" >
 

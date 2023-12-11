@@ -1,6 +1,3 @@
-<?php
-$loadFontAwesomeScript = true;
-?>
 
 <main class="auth">
 <div class="auth__contenedor">

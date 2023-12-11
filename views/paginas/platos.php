@@ -35,7 +35,7 @@ $excludeSubHeader = true;
             </div>
             <div class="h__pad-derecho">
                 <picture class="h__pad-derecho__img--picture">
-                    <img class="h__pad-derecho__img" src="/img/header/Visual2.webp" alt="Header-VisualPC" width="100%" height="100%">
+                    <img class="h__pad-derecho__img" src="/img/header/Visual2.avif" alt="Header-VisualPC" width="100%" height="100%">
                 </picture>
             </div>
         </div>
@@ -43,53 +43,52 @@ $excludeSubHeader = true;
 
     <div class="swiper-container">
         <div class="h__contenedor flex-row margin7rem" id="miCarrusel">
-
             <div class="swiper-wrapper">
                 <div class="h__contenedor__card swiper-slide">
                     <div class="h__contenedor__card--img">
-                        <img loading="lazy" src="/img/header/card1.webp" alt="Card img" alt="Card-img" width="100%" height="100%">
+                        <img loading="lazy" src="/img/header/Card1.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
                     </div>
                     <div class="h__contenedor__card--tittle fontsize-28px ">
                         <p>Elige los platos que quieras</p>
                     </div>
                     <div class="h__contenedor__card--txt fontsize-16px ">
-                        <p>Cada semana tendrás un menú nuevo y variado con muchas opciones donde elegir lo que más te guste.</p>
+                        <p>Cada semana disfrutarás de un menú fresco y diverso con una amplia gama de opciones para que elijas tus favoritos.</p>
                     </div>
                 </div>
 
                 <div class="h__contenedor__card swiper-slide">
                     <div class="h__contenedor__card--img">
-                        <img loading="lazy" src="/img/header/card1.webp" alt="Card img" alt="Card-img" width="100%" height="100%">
+                        <img loading="lazy" src="/img/header/Card2.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
                     </div>
                     <div class="h__contenedor__card--tittle fontsize-28px">
-                        <p>Nuestros chefs cocinan por ti</p>
+                        <p>Nosotros cocinamos por ti</p>
                     </div>
                     <div class="h__contenedor__card--txt fontsize-16px">
-                        <p>Comida casera, con ingredientes naturales y productos de proximidad de alta calidad.</p>
+                        <p>Delicias caseras con ingredientes naturales y productos locales de primera calidad.</p>
                     </div>
                 </div>
 
                 <div class="h__contenedor__card swiper-slide">
                     <div class="h__contenedor__card--img">
-                        <img loading="lazy" src="/img/header/card1.webp" alt="Card img" alt="Card-img" width="100%" height="100%">
+                        <img loading="lazy" src="/img/header/Card3.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
                     </div>
                     <div class="h__contenedor__card--tittle  fontsize-28px">
                         <p>Disfruta de tu comida y gana tiempo</p>
                     </div>
                     <div class="h__contenedor__card--txt fontsize-16px">
-                        <p>Recibirás tus tápers cada semana para que comas lo que te gusta y te sienta bien. Calentar en el micro... ¡y listo!</p>
+                        <p>Te llevamos la experiencia de una auténtica taquiza directamente a tu puerta. ¡Solo reserva y disfruta!</p>
                     </div>
                 </div>
 
                 <div class="h__contenedor__card swiper-slide">
                     <div class="h__contenedor__card--img">
-                        <img loading="lazy" src="/img/header/card1.webp" alt="Card img" alt="Card-img" width="100%" height="100%">
+                        <img loading="lazy" src="/img/header/Card4.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
                     </div>
                     <div class="h__contenedor__card--tittle fontsize-28px">
-                        <p>Cada jueves cambiamos la carta</p>
+                        <p>No solo somos tacos, hay variedad.</p>
                     </div>
                     <div class="h__contenedor__card--txt fontsize-16px">
-                        <p>Te sugeriremos platos en base a tus gustos y podrás hacer todos los cambios que quieras.</p>
+                        <p>Explora una variedad excepcional de platos deliciosos para todos los gustos en tus eventos, más allá de los tacos.</p>
                     </div>
 
                 </div>
@@ -139,10 +138,10 @@ $excludeSubHeader = true;
 
     <div class="h__contenedor flex-column margin-8rem">
         <div class="h__tittle ">
-            Elige los platos de tu primer menú
+        Elige platos para tu evento.
         </div>
         <div class="h__subtittle fontsize-2rem ">
-            <p>Estos platos estarán disponibles solo hasta el miércoles a las 23:59h. No te lo pierdas</p>
+            <p>Próximamente: esta función estará disponible. ¡No te la pierdas!</p>
         </div>
     </div>
 </div>

@@ -42,14 +42,14 @@ class EventosController
                     if (!is_dir($carpeta_imagenes)) {
                         mkdir($carpeta_imagenes, 0755, true);
                     }
-                    $imagen = Image::make($_FILES['imagen']['tmp_name'])->fit(800, 800)->encode('png', 80);
+                    $imagen = Image::make($_FILES['imagen']['tmp_name'])->fit(800, 800)->encode('png', 70);
                     $nombre_imagen = md5(uniqid(rand(), true));
                     $_POST['imagen'] = $nombre_imagen;
                 }
                 $evento->sincronizar($_POST);
                 $alertas = $evento->validar();
                 if (empty($alertas)) {
-                    $imagen->save($carpeta_imagenes . '/' . $nombre_imagen . ".webp");
+                    $imagen->save($carpeta_imagenes . '/' . $nombre_imagen . ".avif");
                     $resultado = $evento->guardar();
 
                     if ($resultado) {

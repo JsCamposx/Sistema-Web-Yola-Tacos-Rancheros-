@@ -81,7 +81,7 @@ class PlatillosController
                         // y el true es para los subdir (permiso)
                         mkdir($carpeta_imagenes, 0755, true);
                     }
-                    $imagen = Image::make($_FILES['imagen']['tmp_name'])->fit(400, 400)->encode(null, 40);
+                    $imagen = Image::make($_FILES['imagen']['tmp_name'])->fit(400, 400)->encode(null, 60);
                     //generar nombre aleatorio a la imagen
                     $nombre_imagen = md5(uniqid(rand(), true));
                     $_POST['imagen'] = $nombre_imagen;
@@ -94,7 +94,7 @@ class PlatillosController
                 //Guardar el registro
                 if (empty($alertas)) {
                     //Guardar la imagen
-                    $imagen->save($carpeta_imagenes . '/' . $nombre_imagen . ".webp");
+                    $imagen->save($carpeta_imagenes . '/' . $nombre_imagen . ".avif");
 
                     //Guardar en la BD
                     $resultado = $platillo->guardar();
@@ -156,7 +156,7 @@ class PlatillosController
 
 
 
-                    $imagen = Image::make($_FILES['imagen']['tmp_name'])->fit(400, 400)->encode(null, 40);
+                    $imagen = Image::make($_FILES['imagen']['tmp_name'])->fit(400, 400)->encode(null, 60);
                     //generar nombre aleatorio a la imagen
                     $nombre_imagen = md5(uniqid(rand(), true));
 
@@ -171,7 +171,7 @@ class PlatillosController
 
                 if (empty($alertas)) {
                     if (isset($nombre_imagen)) {
-                        $imagen->save($carpeta_imagenes . '/' . $nombre_imagen . ".webp");
+                        $imagen->save($carpeta_imagenes . '/' . $nombre_imagen . ".avif");
                     }
 
                     $resultado = $platillo->guardar();

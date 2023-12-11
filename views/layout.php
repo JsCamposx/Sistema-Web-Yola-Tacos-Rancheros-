@@ -9,7 +9,7 @@
     <noscript>
         <link rel="stylesheet" href="/build/css/app.css">
     </noscript>
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
     <?php if (isset($loadSwiperScript) && $loadSwiperScript): ?>
     <script>
         console.log('Link script swiper loaded!');
@@ -19,16 +19,9 @@
         document.head.appendChild(swiperLink);
     </script>
     <?php endif; ?>
+ 
 
-    <?php if (isset($loadFontAwesomeScript) && $loadFontAwesomeScript): ?>
-    <script>
-        console.log('Link font-awesome loaded!');
-        var fontAwesomeLink = document.createElement('link');
-        fontAwesomeLink.rel = 'stylesheet';
-        fontAwesomeLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css';
-        document.head.appendChild(fontAwesomeLink);
-    </script>
-    <?php endif; ?>
+ 
 
     <meta name="description" content="Transforma tus eventos con nuestras taquizas. Ofrecemos servicios de catering auténticos y de calidad. Haz de tu evento un festín de sabores inolvidables. ¡Contáctanos para una experiencia única!" />
 </head>
