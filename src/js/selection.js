@@ -2,12 +2,6 @@ var currentPage = window.location.pathname;
 if (currentPage === '/admin/eventos/crear') {
 	console.log('Script selection loaded')
 	$(document).ready(function () {
-		console.log('Script selection loaded')
-		if (document.querySelector(".card-swiper-otros")) {
-			var tiposNoPermitidosOtros = ["Guisos", "Platillos", "Bebidas"];
-			initializeSelectionOtros(".card-swiper-otros", "#otros_seleccionados", "selected", "#numero_otros", tiposNoPermitidosOtros);
-		}
-
 		function initializeSelectionOtros(sectionSelector, selectedItemsInput, selectedItemClass, numeroPlatillosInput, tiposNoPermitidos) {
 			var selectedItems = $(selectedItemsInput).val();
 			if (selectedItems) {
@@ -17,7 +11,7 @@ if (currentPage === '/admin/eventos/crear') {
 				});
 			}
 
-			$(sectionSelector).on("dblclick", function () {
+			$(sectionSelector).on("click", function () {
 				var nombre = $(this).data("nombre");
 				var tipoPlatillo = $(this).data("tipo");
 
@@ -46,7 +40,7 @@ if (currentPage === '/admin/eventos/crear') {
 				});
 			}
 
-			$(sectionSelector).on("dblclick", function () {
+			$(sectionSelector).on("click", function () {
 				var nombre = $(this).data("nombre");
 				var tipoPlatillo = $(this).data("tipo");
 
@@ -73,6 +67,11 @@ if (currentPage === '/admin/eventos/crear') {
 		if (document.querySelector(".card-swiper-bebidas")) {
 			var tipoPermitidoBebidas = ["Bebidas"];
 			initializeSelection(".card-swiper-bebidas", "#bebidas_seleccionadas", "selected", "#numero_bebidas", tipoPermitidoBebidas);
+		}
+
+		if (document.querySelector(".card-swiper-otros")) {
+			var tiposNoPermitidosOtros = ["Guisos", "Platillos", "Bebidas"];
+			initializeSelectionOtros(".card-swiper-otros", "#otros_seleccionados", "selected", "#numero_otros", tiposNoPermitidosOtros);
 		}
 	}
 	);

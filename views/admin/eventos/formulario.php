@@ -100,7 +100,7 @@
                     <div class="card-swiper swiper-slide swiper-slide-css" data-nombre="<?php echo $platillo->nombre; ?>" data-tipo="<?php echo $platillo->tipo_platillo; ?>">
                         <div>
                             <div class="card-swiper__head">
-                             <img class="card-swiper__head--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="100%" height="100%" />
+                             <img class="card-swiper__head--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.avif" class="card__image" alt="img-platillos" width="100%" height="100%" />
                            </div>
                             <div class="card-swiper__bottom">
                                 <p class="card-swiper__bottom--tittle">
@@ -155,10 +155,10 @@
     <div class="swiper swiper-css mySwiperBebidas">
         <div class="swiper-wrapper swiper-wrapper-css">
             <!-- card inicial  -->
-        <div class="card-swiper-bebidas swiper-slide" data-nombre="Ninguna" data-tipo="Bebidas">
+        <div class="card-swiper-bebidas swiper-slide swiper-slide-css" data-nombre="Ninguna" data-tipo="Bebidas">
                     <div>
                             <p class="card-swiper__bottom--tittle1">
-                                Ninguna
+                                Sin bebidas
                             </p>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                 <div class="card-swiper-bebidas swiper-slide swiper-slide-css" data-nombre="<?php echo $platillo->nombre; ?>" data-tipo="<?php echo $platillo->tipo_platillo; ?>">
                     <div>
                         <div class="card-swiper__head">
-                            <img class="card-swiper__head--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="100%" height="100%" />
+                            <img class="card-swiper__head--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.avif" class="card__image" alt="img-platillos" width="100%" height="100%" />
                         </div>
                         <div class="card-swiper__bottom">
                             <p class="card-swiper__bottom--tittle">
@@ -226,10 +226,10 @@
     <div class="swiper swiper-css mySwiperOtros">
         <div class="swiper-wrapper swiper-wrapper-css">
             <!-- card inicial  -->
-            <div class="card-swiper-otros swiper-slide" data-nombre="Ninguna" data-tipo="Acompañante">
+            <div class="card-swiper-otros swiper-slide swiper-slide-css" data-nombre="Ninguna" data-tipo="Acompañante">
                 <div>
                     <p class="card-swiper__bottom--tittle1">
-                        Ningun
+                        Sin extras
                     </p>
                 </div>
             </div>
@@ -238,7 +238,7 @@
                 <div class="card-swiper-otros swiper-slide swiper-slide-css" data-nombre="<?php echo $platillo->nombre; ?>" data-tipo="<?php echo $platillo->tipo_platillo; ?>">
                     <div>
                         <div class="card-swiper__head">
-                            <img class="card-swiper__head--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="100%" height="100%" />
+                            <img class="card-swiper__head--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.avif" class="card__image" alt="img-platillos" width="100%" height="100%" />
                         </div>
                         <div class="card-swiper__bottom">
                             <p class="card-swiper__bottom--tittle">

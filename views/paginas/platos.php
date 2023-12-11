@@ -168,7 +168,7 @@ $excludeSubHeader = true;
                         if ($platillo->tipo_platillo == $categoria->nombre) { ?>
                             <div class="platos__card">
                                 <div class="platos__card--cimg">
-                                    <img class="platos__card--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" loading="lazy" alt="Platillo-img" width="100%" height="100%">
+                                    <img class="platos__card--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.avif" loading="lazy" alt="Platillo-img" width="100%" height="100%">
                                     <span class="platos__card--span"><?php echo $platillo->nombre; ?></span>
                                 </div>
 

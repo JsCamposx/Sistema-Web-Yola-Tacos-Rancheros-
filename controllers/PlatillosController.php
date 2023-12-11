@@ -81,7 +81,7 @@ class PlatillosController
                         // y el true es para los subdir (permiso)
                         mkdir($carpeta_imagenes, 0755, true);
                     }
-                    $imagen = Image::make($_FILES['imagen']['tmp_name'])->fit(400, 400)->encode(null, 60);
+                    $imagen = Image::make($_FILES['imagen']['tmp_name'])->fit(400, 400)->encode(null, 80);
                     //generar nombre aleatorio a la imagen
                     $nombre_imagen = md5(uniqid(rand(), true));
                     $_POST['imagen'] = $nombre_imagen;
@@ -156,7 +156,7 @@ class PlatillosController
 
 
 
-                    $imagen = Image::make($_FILES['imagen']['tmp_name'])->fit(400, 400)->encode(null, 60);
+                    $imagen = Image::make($_FILES['imagen']['tmp_name'])->fit(400, 400)->encode(null, 80);
                     //generar nombre aleatorio a la imagen
                     $nombre_imagen = md5(uniqid(rand(), true));
 
