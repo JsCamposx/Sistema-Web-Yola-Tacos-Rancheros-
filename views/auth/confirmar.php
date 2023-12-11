@@ -1,3 +1,7 @@
+<?php
+$loadFontAwesomeScript = true;
+?>
+
 <main class="auth">
   <div class="auth__contenedor">  
   <h2 class="auth__heading"><?php echo $titulo; ?></h2>

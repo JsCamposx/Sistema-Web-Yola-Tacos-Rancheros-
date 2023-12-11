@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     padding-top: 6rem;
-
+  
 
     &__main {
         width: min(95%, 130rem);
@@ -21,14 +21,15 @@
             width: 60%;
             margin: auto;
             text-align: center;
-            padding-top: 5rem;
-            padding-bottom: 5rem;
-            font-size: 5.6rem;
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+            font-size: 5.2rem;
 
             @include m.desktopmx {
-                padding-top: 2rem;
-                padding-bottom: 2rem;
-                font-size: 3.8rem;
+                width: 100%;
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+                font-size: 3.4rem;
             }
         }
 
@@ -37,13 +38,15 @@
             margin: auto;
             text-align: center;
             padding-top: 7rem;
-            padding-bottom: 7rem;
+            padding-bottom: 4rem;
             font-size: 3.6rem;
-
+            font-weight: bold;
             @include m.desktopmx {
-                padding-top: 5rem;
-                padding-bottom: 5rem;
+                width: 100%;
+              
                 font-size: 2.4rem;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
             }
         }
     }
@@ -72,11 +75,16 @@
             padding-right: 1.6rem;
 
             @include m.desktopmx {
+                padding-top: 4rem;
                 padding-left: 2.4rem;
                 padding-right: 2.4rem;
                 width: 100%;
-                padding-bottom: 4rem;
+                padding-bottom: 8rem;
                 order: 1;
+            }
+
+            @include m.telefonomx {
+                padding-bottom: 0rem;
             }
 
 
@@ -96,12 +104,19 @@
                     @include m.desktopmx {
                         font-size: 2.4rem;
                     }
+
+
                 }
             }
 
             &--txt {
                 padding-right: 4rem;
                 margin-bottom: 1.6rem;
+
+
+                @include m.telefonomx {
+                    padding-right: 0rem;
+                }
 
                 & p {
                     margin: 0;
@@ -152,25 +167,37 @@
 
 
     &__contenedora {
-        &--tittle{
+        width: 100%;
+        margin: auto;
+
+
+
+        &--tittle {
             font-size: 3.6rem;
             width: 100%;
             text-align: center;
             font-weight: bold;
-            
-            margin-bottom: 6rem;
+
+            margin-bottom: 4rem;
+
+            @include m.desktopmx {
+                font-size: 2.4rem;
+            }
         }
 
 
-        &--pad{
-        display: flex;
-        flex-direction: column;
-        padding: 2.4rem 4rem;
-        background-color: v.$blanco;
-        border-radius: 3rem;
-        margin-top: 2.5rem;
-      
-        
+        &--pad {
+            display: flex;
+            flex-direction: column;
+            padding: 2.4rem 4rem;
+            background-color: v.$blanco;
+            border-radius: 3rem;
+            margin-top: 1.5rem;
+
+            @include m.desktopmx{
+                margin-top: 1.5rem;
+                padding: 2rem 2rem;
+            }
         }
 
         &--padQ {
@@ -178,9 +205,9 @@
             justify-content: space-between;
             align-items: center;
             border-radius: 1.2rem;
-           
             
-          
+
+
             & button {
                 background: none;
                 border: none;
@@ -194,6 +221,11 @@
                 font-weight: 500;
                 margin: 0;
                 line-height: 120%;
+
+                @include m.desktopmx {
+
+                    font-size: 1.8rem;
+                }
             }
         }
 
@@ -203,21 +235,25 @@
             padding: 0 10rem 0 0;
             background-color: v.$blanco;
             font-size: 1.8rem;
-            font-weight: 400;
+            font-weight: 300;
             line-height: 2.4rem;
-       
-        
+
+            @include m.desktopmx {
+                padding: 0rem;
+                font-size: 1.6rem;
+            }
+
             & p {
                 margin-top: 0;
                 margin-bottom: 2.4rem;
             }
-        
+
             &--active {
                 display: block;
-            
+
             }
 
-           
+
         }
 
 
@@ -227,15 +263,19 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-top: 12rem;
-        padding-bottom: 8rem;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
         text-align: center;
         width: 66.666%;
         margin: auto;
 
+
+       
         @include m.desktopmx {
             width: 100%;
-
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        
         }
 
         &--tittle {
@@ -251,6 +291,8 @@
                 padding-left: 0.75rem;
                 padding-right: 0.75rem;
             }
+
+          
         }
 
         &--txt {
@@ -265,6 +307,11 @@
                 font-size: 2rem;
                 padding-left: 0.75rem;
                 padding-right: 0.75rem;
+            }
+
+            @include m.telefonomx{
+                max-height: 29rem;
+                overflow-y: hidden;
             }
         }
     }

@@ -5,10 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yola - <?php echo $titulo; ?></title>
-    <link rel="stylesheet" href="/build/css/app.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/build/css/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/build/css/app.css">
+    </noscript>
+   
+    <?php if (isset($loadSwiperScript) && $loadSwiperScript): ?>
+    <script>
+        console.log('Link script swiper loaded!');
+        var swiperLink = document.createElement('link');
+        swiperLink.rel = 'stylesheet';
+        swiperLink.href = 'https://unpkg.com/swiper/swiper-bundle.min.css';
+        document.head.appendChild(swiperLink);
+    </script>
+    <?php endif; ?>
+
+    <?php if (isset($loadFontAwesomeScript) && $loadFontAwesomeScript): ?>
+    <script>
+        console.log('Link font-awesome loaded!');
+        var fontAwesomeLink = document.createElement('link');
+        fontAwesomeLink.rel = 'stylesheet';
+        fontAwesomeLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css';
+        document.head.appendChild(fontAwesomeLink);
+    </script>
+    <?php endif; ?>
+
     <meta name="description" content="Transforma tus eventos con nuestras taquizas. Ofrecemos servicios de catering auténticos y de calidad. Haz de tu evento un festín de sabores inolvidables. ¡Contáctanos para una experiencia única!" />
 </head>
 
@@ -38,8 +59,6 @@
 
 
     <script src="/build/js/main.min.js" defer></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

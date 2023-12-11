@@ -1,7 +1,7 @@
 <?php
 $excludeSubHeader = true;
+$loadSwiperScript = true;
 ?>
-
 
 <div class="about">
     <!-- tittle -->
@@ -72,11 +72,11 @@ $excludeSubHeader = true;
     </div>
 
     <!-- Section 4 -->
- 
-        <div class="about__contenedor">
+
+    <div class="about__contenedor">
         <div class="swiper-container">
             <div class="about__contenedor--padm" id="miCarrusel">
-            <div class="swiper-wrapper">
+                <div class="swiper-wrapper">
                     <div class="about__contenedor--padh swiper-slide">
                         <img src="img/about/img-section4-1.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.1" width="350" height="350" loading="lazy">
                         <div class="about__contenedor--info">
@@ -128,7 +128,7 @@ $excludeSubHeader = true;
             </div>
 
         </div>
-        
+
     </div>
     <div class="swiper-pagination"></div>
     <style>
@@ -162,21 +162,19 @@ $excludeSubHeader = true;
         .swiper-container {
             overflow: visible !important;
             width: 100%;
-          
+
         }
 
-       
+
 
         @media only screen and (max-width: 1024px) {
             .swiper-container {
                 overflow: hidden !important;
             }
-         
+
         }
-        
-      
-     
     </style>
+
 
     <!-- Section 5 -->
     <div class="about__contenedor">
@@ -184,3 +182,6 @@ $excludeSubHeader = true;
             <img src="img/about/img-section5.webp" class="about__contenedor--padf--img" alt="Imagen Seccion 5" width="100%" height="100%">
         </div>
     </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+ 

@@ -192,3 +192,10 @@ $excludeSubHeader = true;
 </div>
 </div>
 </div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<?php
+$loadSwiperScript = true;
+?>
