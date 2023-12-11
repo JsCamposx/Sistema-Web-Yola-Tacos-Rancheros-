@@ -11,12 +11,13 @@ if (targetPages.includes(currentPage)) {
         const targetPosition = targetElement.getBoundingClientRect().top - (windowHeight / 8);
         window.scrollTo({
             top: targetPosition,
-            behavior: 'instant'
+            behavior: 'instant',
+            passive: true 
         });
     }
 }
 
-   
+    
 
 if(currentPage == '/platos'){
     console.log('Script Highlight loaded!');
@@ -30,27 +31,28 @@ if(currentPage == '/platos'){
     });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    var btnHeader = document.getElementById('btnHeader');
-    btnHeader.addEventListener('click', function () {
-        const tpPlatosContenedor = document.querySelector('.platos__main');
-        window.scrollTo({
-            top: tpPlatosContenedor.offsetTop - 100,
-            behavior: 'smooth'
-        });
-
-        const allPlatosCards = document.querySelectorAll('.platos__card');
-        for (let i = 0; i < Math.min(8, allPlatosCards.length); i++) {
-            const tpPlatos = allPlatosCards[i];
-            setTimeout(function () {
-                tpPlatos.classList.add('highlight');
+    document.addEventListener('DOMContentLoaded', function () {
+        var btnHeader = document.getElementById('btnHeader');
+        btnHeader.addEventListener('click', function () {
+            const tpPlatosContenedor = document.querySelector('.platos__main');
+            window.scrollTo({
+                top: tpPlatosContenedor.offsetTop - 100,
+                behavior: 'smooth',
+                passive: true  
+            });
+    
+            const allPlatosCards = document.querySelectorAll('.platos__card');
+            for (let i = 0; i < Math.min(8, allPlatosCards.length); i++) {
+                const tpPlatos = allPlatosCards[i];
                 setTimeout(function () {
-                    tpPlatos.classList.remove('highlight');
-                }, 1000);
-            }, i * 500);
-        }
+                    tpPlatos.classList.add('highlight');
+                    setTimeout(function () {
+                        tpPlatos.classList.remove('highlight');
+                    }, 1000);
+                }, i * 500);
+            }
+        }, { passive: true });  
     });
-});
 
 }
 

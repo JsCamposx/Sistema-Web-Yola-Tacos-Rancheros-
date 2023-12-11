@@ -78,7 +78,7 @@ $excludeSubHeader = true;
             <div class="about__contenedor--padm" id="miCarrusel">
             <div class="swiper-wrapper">
                     <div class="about__contenedor--padh swiper-slide">
-                        <img src="img/about/img-section4-1.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.1" width="350" height="auto" loading="lazy">
+                        <img src="img/about/img-section4-1.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.1" width="350" height="350" loading="lazy">
                         <div class="about__contenedor--info">
                             <div class="about__contenedor--tittle">
                                 <p>Dar de comer bien en todos los sentidos</p>
@@ -94,7 +94,7 @@ $excludeSubHeader = true;
                     </div>
 
                     <div class="about__contenedor--padh padding-top14rem swiper-slide">
-                        <img src="img/about/img-section4-2.webp" class="about__contenedor--imgpad rotatel" alt="Imagen Seccion 4.2" width="350" height="auto" loading="lazy">
+                        <img src="img/about/img-section4-2.webp" class="about__contenedor--imgpad rotatel" alt="Imagen Seccion 4.2" width="350" height="350" loading="lazy">
                         <div class="about__contenedor--info">
                             <div class="about__contenedor--tittle">
                                 <p>Ofrecer un bonus de tiempo extra para ti</p>
@@ -109,7 +109,7 @@ $excludeSubHeader = true;
                     </div>
 
                     <div class="about__contenedor--padh swiper-slide">
-                        <img src="img/about/img-section4-3.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.3" width="350" height="auto" loading="lazy">
+                        <img src="img/about/img-section4-3.webp" class="about__contenedor--imgpad rotater" alt="Imagen Seccion 4.3" width="350" height="350" loading="lazy">
                         <div class="about__contenedor--info">
                             <div class="about__contenedor--tittle">
                                 <p>Cocinar, escuchar, volver a cocinar</p>
