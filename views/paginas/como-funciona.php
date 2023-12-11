@@ -46,7 +46,7 @@ $excludeSubHeader = true;
                 <a class="color1" href="#">Cancela o pausa cuando quieras.</a>
 
                 <div class="h__pad-izquierdo__cboton">
-                    <button class="h__pad-izquierdo__cboton__boton " id="btnHeader">
+                    <button class="h__pad-izquierdo__cboton__boton ">
                         <span>Explora los platos</span>
                     </button>
                 </div>
@@ -132,7 +132,7 @@ $excludeSubHeader = true;
             </div>
             <a class="color1" href="#">Cancela o pausa cuando quieras.</a>
             <div class="h__pad-izquierdo__cboton justifycontent-center">
-                <button class="h__pad-izquierdo__cboton__boton " id="btnHeader">
+                <button class="h__pad-izquierdo__cboton__boton ">
                     <span>Explorar</span>
                 </button>
             </div>
@@ -176,18 +176,18 @@ $excludeSubHeader = true;
                 <div class="funciona__contenedora--padP">
                     <p>Depende de tu ciudad pero lo más habitual es que puedas recibir tu pedido semanal a partir de 2 días laborables tras cerrar la carta los miércoles a las 23.59h. Hasta entonces podrás pedir o hacer cambios en tu menú. A partir del jueves los pedidos quedarán cerrados y todos se enviarán en el horario y día que elijas según tu código postal. Cuantas más personas piden Wetaca en una ciudad, más días de reparto podemos ofrecer.</p>
                 </div>
+            </div>
 
-
-                <div class="funciona__contenedora--pad">
-                    <div class="funciona__contenedora--padQ">
-                        <h5>¿Cómo será mi comida semanal?</h5>
-                        <button class="quiz">X</button>
-                    </div>
-                    <div class="funciona__contenedora--padP">
-                        <p>Tu menú será tan variado como tú quieras y personalizado al 100%. Dependiendo del número de tápers que quieras recibir y de tus gustos cada semana te sugerimos una selección de platos, esos que creemos que son tu match perfecto. Pero si quieres cambiar, añadir, quitar o lo que sea, tranqui, podrás hacerlo. Tú comes, tú mandas.</p>
-                    </div>
+            <div class="funciona__contenedora--pad">
+                <div class="funciona__contenedora--padQ">
+                    <h5>¿Cómo será mi comida semanal?</h5>
+                    <button class="quiz">X</button>
+                </div>
+                <div class="funciona__contenedora--padP">
+                    <p>Tu menú será tan variado como tú quieras y personalizado al 100%. Dependiendo del número de tápers que quieras recibir y de tus gustos cada semana te sugerimos una selección de platos, esos que creemos que son tu match perfecto. Pero si quieres cambiar, añadir, quitar o lo que sea, tranqui, podrás hacerlo. Tú comes, tú mandas.</p>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
