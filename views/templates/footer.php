@@ -6,7 +6,7 @@
                     <nav class="footer__servicios__secciones">
                         <div class="footer__servicios--main">
                             <div class="footer__servicios--top">
-                                <h4>Ayuda</h4>
+                                <h2>Ayuda</h2>
                             </div>
                             <div class="footer__servicios--bot">
                                 <ul>
@@ -23,7 +23,7 @@
                         </div>
                         <div class="footer__servicios--main">
                             <div class="footer__servicios--top">
-                                <h4>Conócenos</h4>
+                                <h2>Conócenos</h2>
                             </div>
                             <div class="footer__servicios--bot">
                                 <ul>
@@ -39,7 +39,7 @@
                         </div>
                         <div class="footer__servicios--main">
                             <div class="footer__servicios--top">
-                                <h4>Sostenibilidad</h4>
+                                <h2>Sostenibilidad</h2>
                             </div>
                             <div class="footer__servicios--">
                                 <ul>
@@ -79,7 +79,7 @@
                     <a class="footer__redes__botones__boton1 footer__redes__botones " href="https://www.facebook.com/YOLATACOSRANCHEROS" aria-label="Enlace a Facebook">
                         <span class="Ocultar">Enlace para dirigirse a Facebook</span>
                     </a>
-                    <a class="footer__redes__botones__boton2 footer__redes__botones " href="#" aria-label="Enlace a Twitter">
+                    <a class="footer__redes__botones__boton2 footer__redes__botones " href="https://twitter.com/YolaTacosR" aria-label="Enlace a Twitter">
                         <span class="Ocultar">Enlace para dirigirse a Twitter</span>
                     </a>
                     <a class="footer__redes__botones__boton3 footer__redes__botones " href="https://www.instagram.com/yola_tacosrancheros/" aria-label="Enlace a Instagram">

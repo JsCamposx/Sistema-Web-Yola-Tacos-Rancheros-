@@ -60,8 +60,8 @@
     <?php if(isset($platillo->imagen_actual)){ ?>
     <p class="formulario__texto">Imagen Actual:</p>
     <div >
-    <img src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="300" height="300" loading="lazy"/>
-    </div>
+   <img src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" class="card__image" alt="img-platillos" width="200" height="200" loading="lazy" style="border-radius: 3rem;" />
+ </div>
     <?php } ?>
 
   

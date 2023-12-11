@@ -11,15 +11,11 @@
                 <div class="h__pad-izquierdo__listado">
                     <ul class="h__pad-izquierdo__listado__ul">
                         <li class="h__pad-izquierdo__listado__ul__li">
-                            <span class="material-symbols-outlined circulos">
-                                check_circle
-                            </span>
+                        <i class="fa-regular fa-circle-check"></i>
                             <span>Recibe donde y cuando quieras.</span>
                         </li>
                         <li class="h__pad-izquierdo__listado__ul__li">
-                            <span class="material-symbols-outlined circulos">
-                                check_circle
-                            </span>
+                        <i class="fa-regular fa-circle-check"></i>
                             <span>50% de pago por adelantado</span>
                         </li>
                     </ul>

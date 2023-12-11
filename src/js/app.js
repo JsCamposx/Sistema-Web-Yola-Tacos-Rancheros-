@@ -6,5 +6,6 @@ import './scroll';
 import './caruselLayout';
 import './navbar';
 import './toggle';
+import './questions';
 
 

@@ -179,7 +179,9 @@
                 margin-bottom: 1rem;
                 color: v.$gris-oscuro;
                 
-
+                & i {
+                    margin-right: 0.5rem;
+                }
               
             }
         }

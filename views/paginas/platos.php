@@ -125,15 +125,15 @@ $excludeSubHeader = true;
         }
 
         .swiper-pagination {
-            position: static ;
+            position: static;
         }
 
         .swiper-container {
-            overflow: hidden ;
+            overflow: hidden;
         }
 
-        .swiper-wrapper{
-            box-sizing: inherit ;
+        .swiper-wrapper {
+            box-sizing: inherit;
         }
     </style>
 
@@ -172,7 +172,7 @@ $excludeSubHeader = true;
                                     <img class="platos__card--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.webp" loading="lazy" alt="Platillo-img" width="100%" height="100%">
                                     <span class="platos__card--span"><?php echo $platillo->nombre; ?></span>
                                 </div>
-                              
+
                                 <div class="platos__card--txt">
                                     <h2 class="platos__card--tittle"><?php echo $platillo->nombre; ?></h2>
                                     <p><?php echo $platillo->descripcion; ?></p>

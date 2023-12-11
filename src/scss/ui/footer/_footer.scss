@@ -51,7 +51,7 @@
         padding-left: 8rem;
         padding-right: 8rem;
         padding-top: 4rem;
-        padding-bottom: 1.6rem;
+        padding-bottom: 3.6rem;
        
        }
      
@@ -68,7 +68,7 @@
        }
     }
 
-    &--top h4{
+    &--top h2{
       margin-top: 0;
       margin-bottom: 1.2rem;
       font-weight: 500;
@@ -76,7 +76,7 @@
       font-size: 1.6rem;
 
       @include m.desktop{
-        margin-bottom: 3.2rem;
+      
         font-size: 1.8rem;
         
        }
@@ -110,7 +110,7 @@
       line-height: 2;
       font-size: 1.2rem;
       color: #383a33;
-      font-weight: 600;
+      font-weight: 400;
 
       @include m.desktop{
         font-size: 1.4rem;
@@ -122,7 +122,7 @@
     &__secciones a{
       text-decoration: none;
       color: v.$gris-oscuro;
-      font-weight: 400;
+      font-weight: 300;
     }
 
     &__secciones ul{
