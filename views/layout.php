@@ -9,7 +9,7 @@
     <noscript>
         <link rel="stylesheet" href="/build/css/app.css">
     </noscript>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    
     <?php if (isset($loadSwiperScript) && $loadSwiperScript): ?>
     <script>
         console.log('Link script swiper loaded!');

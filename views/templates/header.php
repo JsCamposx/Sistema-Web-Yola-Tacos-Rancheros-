@@ -40,7 +40,7 @@
             </div>
             <div class="h__pad-derecho">
                 <picture class="h__pad-derecho__img--picture">
-                    <img class="h__pad-derecho__img" src="/img/header/Visual.avif"  alt="Imagen de Header en PC" width="100%" height="100%">
+                    <img class="h__pad-derecho__img" src="/img/header/Visual.avif"  alt="Imagen de Header en PC" width="1024" height="1024" loading="lazy">
                     <img class="h__pad-derecho__img--2" src="/img/header/Ordena.avif"  alt="Imagen de Header en teléfono"  width="100%" height="100%">
                 </picture>
             </div>

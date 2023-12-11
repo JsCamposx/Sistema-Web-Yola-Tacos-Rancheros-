@@ -35,7 +35,8 @@ $excludeSubHeader = true;
             </div>
             <div class="h__pad-derecho">
                 <picture class="h__pad-derecho__img--picture">
-                    <img class="h__pad-derecho__img" src="/img/header/Visual2.avif" alt="Header-VisualPC" width="100%" height="100%">
+                    <img class="h__pad-derecho__img" src="/img/header/Visual2.avif" alt="Header-VisualPC" width="1024" height="1024" loading="lazy">
+                    
                 </picture>
             </div>
         </div>
@@ -46,7 +47,7 @@ $excludeSubHeader = true;
             <div class="swiper-wrapper">
                 <div class="h__contenedor__card swiper-slide">
                     <div class="h__contenedor__card--img">
-                        <img loading="lazy" src="/img/header/Card1.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
+                        <img src="/img/header/Card1.avif" alt="Card img" alt="Card-img" width="200" height="200">
                     </div>
                     <div class="h__contenedor__card--tittle fontsize-28px ">
                         <p>Elige los platos que quieras</p>
@@ -58,7 +59,7 @@ $excludeSubHeader = true;
 
                 <div class="h__contenedor__card swiper-slide">
                     <div class="h__contenedor__card--img">
-                        <img loading="lazy" src="/img/header/Card2.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
+                        <img  src="/img/header/Card2.avif" alt="Card img" alt="Card-img" width="200" height="200" loading="lazy">
                     </div>
                     <div class="h__contenedor__card--tittle fontsize-28px">
                         <p>Nosotros cocinamos por ti</p>
@@ -70,7 +71,7 @@ $excludeSubHeader = true;
 
                 <div class="h__contenedor__card swiper-slide">
                     <div class="h__contenedor__card--img">
-                        <img loading="lazy" src="/img/header/Card3.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
+                        <img  src="/img/header/Card3.avif" alt="Card img" alt="Card-img" width="200" height="200" loading="lazy">
                     </div>
                     <div class="h__contenedor__card--tittle  fontsize-28px">
                         <p>Disfruta de tu comida y gana tiempo</p>
@@ -82,7 +83,7 @@ $excludeSubHeader = true;
 
                 <div class="h__contenedor__card swiper-slide">
                     <div class="h__contenedor__card--img">
-                        <img loading="lazy" src="/img/header/Card4.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
+                        <img  src="/img/header/Card4.avif" alt="Card img" alt="Card-img" width="200" height="200" loading="lazy">
                     </div>
                     <div class="h__contenedor__card--tittle fontsize-28px">
                         <p>No solo somos tacos, hay variedad.</p>
