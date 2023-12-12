@@ -1554,26 +1554,34 @@ h3 {
   }
 }
 .header__boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 0rem;
   border: none;
   background: none;
+  margin-right: 2rem;
+  height: 100%;
 }
-.header__boton--size {
-  font-size: 3.3rem;
+@media (max-width: 1024px) {
+  .header__boton {
+    margin-right: 0rem;
+  }
+}
+.header__boton svg {
+  margin: 0;
+  width: 3.3rem;
+  height: 3.3rem;
 }
 @media (min-width: 1024px) {
-  .header__boton--size {
-    margin-right: 2rem;
-    font-size: 4.5rem;
+  .header__boton svg {
+    width: 4.5rem;
+    height: 4.5rem;
   }
 }
 .header__boton--opciones {
   display: block;
-  height: 3.5rem;
-  width: 3.5rem;
   margin-right: 2rem;
-  border: none;
-  background-color: #FFFFFF;
 }
 @media (min-width: 1024px) {
   .header__boton--opciones {
@@ -2020,7 +2028,7 @@ h3 {
   margin-bottom: 1rem;
   color: #1E293B;
 }
-.h__pad-izquierdo__listado__ul__li i {
+.h__pad-izquierdo__listado__ul__li svg {
   margin-right: 0.5rem;
 }
 .h__pad-izquierdo__cboton {

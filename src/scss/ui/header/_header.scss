@@ -89,32 +89,38 @@
     }
 
     &__boton{
-     
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-right: 0rem;
         border: none;
         background: none;
+        margin-right: 2rem;
+        height: 100%;
        
-       
-
-           &--size{
-            font-size: 3.3rem;
-
+        @include m.desktopmx{
+            margin-right: 0rem;
+        }
+           & svg {
+            margin: 0;
+            width: 3.3rem;
+            height: 3.3rem;
             @include m.desktop{
-                margin-right: 2rem;
-                font-size: 4.5rem;
+               
+                width: 4.5rem;
+                height: 4.5rem;
                }
            }
 
          &--opciones{
           display: block;
-           height: 3.5rem;
-           width: 3.5rem;
+      
            margin-right: 2rem;
-           border: none;
-           background-color: v.$blanco;
-
+          
+            
            @include m.desktop{
             display: none;
+            
            }
          }
     }
