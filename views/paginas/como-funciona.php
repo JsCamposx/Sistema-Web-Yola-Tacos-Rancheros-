@@ -5,7 +5,7 @@ $excludeSubHeader = true;
 <div class="funciona">
     <div class="funciona__main">
         <!-- tittle -->
-        <h1 class="">Te suscribes y te olvidas del "Qué como hoy"</h1>
+        <h1 class="">Agenda Eventos de Sabores Irresistibles</h1>
  
         <!-- Section1 -->
         <div class="funciona__contenedor">

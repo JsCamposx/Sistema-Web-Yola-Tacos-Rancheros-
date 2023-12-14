@@ -1,0 +1,10 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.inicio {
+  
+    width: min(95%, 130rem);
+
+    margin-left: auto;
+    margin-right: auto;
+}

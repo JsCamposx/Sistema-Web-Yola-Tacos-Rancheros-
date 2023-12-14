@@ -61,12 +61,13 @@ $router->get('/admin/registrados', [RegistradosController::class, 'index']);
 
 
 // Área Pública
+$router->get('/',  [PaginasController::class, 'index']);
 $router->get('/platos',  [PaginasController::class, 'platos']);
-
+$router->get('/cookies',  [PaginasController::class, 'cookies']);
 $router->get('/como-funciona', [PaginasController::class, 'comoFunciona']);
 $router->get('/condiciones-de-uso', [PaginasController::class, 'condiciones']);
 
-$router->get('/about',  [PaginasController::class, 'about']);
+$router->get('/sobre-nosotros',  [PaginasController::class, 'sobreNosotros']);
 $router->get('/404', [PaginasController::class, 'error']);
 
 $router->comprobarRutas();

@@ -3,10 +3,10 @@ var currentPage = window.location.pathname;
 if (currentPage === '/about') {
     console.log('Script carusel loaded (Page-About)');
 
-    var mySwiper;
+    var mySwiper1;
 
     function initializeSwiper() {
-        mySwiper = new Swiper('#miCarrusel', {
+        mySwiper1 = new Swiper('#miCarrusel', {
             slidesPerView: 'auto',
             spaceBetween: 1,
             loop: false,
@@ -49,13 +49,13 @@ if (currentPage === '/about') {
 }
 
 
-if (currentPage === '/platos') {
+if (currentPage === '/platos' || currentPage === '/' ) {
     console.log('Script carusel loaded (Page-Carta)');
 
-    var mySwiper;
+    var mySwiper1;
 
     function initializeSwiper() {
-        mySwiper = new Swiper('#miCarrusel', {
+        mySwiper1 = new Swiper('#miCarrusel', {
             slidesPerView: 'auto',
             spaceBetween: 1,
             loop: false,
@@ -98,6 +98,9 @@ if (currentPage === '/platos') {
 
     
 }
+
+
+
 
 
 

@@ -10,7 +10,7 @@ $excludeSubHeader = true;
         <li>
             <h2 class="fontsize18px">INFORMACIÓN GENERAL</h2>
             <p>En cumplimiento con el deber de información dispuesto en la Ley 34/2002 de Servicios de la Sociedad de la Información y el Comercio Electrónico (LSSI-CE) de 11 de julio, se facilitan a continuación los siguientes datos de información general de este sitio web:</p>
-            <p><a href="http://www.yolatacos.net/" target="_blank">La titularidad de este sitio web, </a>www.yolatacos.net, (en adelante, Sitio Web) la ostenta: Yolanda Soto, con NIF: , y cuyos datos de contacto son:</p>
+            <p><a href="https://tacosyola.shop/" target="_blank">La titularidad de este sitio web, </a>https://tacosyola.shop/, (en adelante, Sitio Web) la ostenta: Yolanda Soto, con NIF: , y cuyos datos de contacto son:</p>
             <p>Dirección: C. Guadalupe S/N, Maderera, 34050 Durango, Dgo. Teléfono de contacto: +526181119679</p>
             <p><a href="mailto:yolatacosr@gmail.com" target="_blank">Email de contacto: </a><a href="mailto:yolatacosr@gmail.com" target="_blank">yolatacosr@gmail.com</a></p>
         </li>

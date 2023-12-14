@@ -16,8 +16,9 @@
         width: 100%;
         
         
-        @include m.desktopmx {
-            padding-bottom: 0rem;
+        @include m.telefonomx {
+            padding-bottom: 2rem;
+          
         }
         &--pad {
             background-color: v.$blanco;
@@ -37,6 +38,9 @@
                 padding-right: 3rem;
             }
 
+            @include m.telefonomx {
+                border-radius: 3rem;
+            }
            
         }
 
@@ -50,8 +54,13 @@
 
         &--padm{
             display: flex;
-            width: min(95%, 130rem);
+            
             text-align: center;
+
+
+            @include m.telefonomx{
+                max-height: 50rem;
+            }
         }
 
         &--padf{     
@@ -85,6 +94,11 @@
         border-radius: 6rem;
         max-width: 35rem;
         width: 100%;
+
+        @include m.telefonomx{
+            max-width: 25rem; 
+            max-height: 25rem;
+        }
    
         }
 
@@ -100,14 +114,18 @@
 
         &--txt{
             margin-top: 3rem;
-          
+            @include m.telefonomx{
+                font-size: 1.4rem;  
+            }
         }
 
       
 
         &--subtittle {
             margin-top: 3rem;
-         
+            @include m.telefonomx{
+                font-size: 1.4rem;  
+            }
         }
 
         &--tittle{
@@ -115,6 +133,15 @@
             font-weight: bold;
             margin-top: 4rem;
             margin-bottom: 4rem;
+
+
+            & p {
+                margin-top: 0;
+            }
+
+            @include m.telefonomx{
+                font-size: 24px;  
+            }
         }
     }
 }
@@ -134,10 +161,14 @@
 
 .font-size56px1{
     font-size: 56px;
-
+    font-weight: bolder;
     @include m.desktopmx{
         font-size: 32px;  
  
+    }
+
+    @include m.telefonomx{
+        font-size: 24px;  
     }
 }
 .font-size36px{
@@ -147,12 +178,21 @@
     @include m.desktopmx{
         font-size: 24px;    
     }
+
+    @include m.telefonomx{
+        display: none;
+    }
 }
 
 .font-size22px{
     font-size: 22px;
+   
     @include m.desktopmx{
         font-size: 20px;    
+    }
+
+    @include m.telefonomx{
+        font-size: 14px;  
     }
 }
 

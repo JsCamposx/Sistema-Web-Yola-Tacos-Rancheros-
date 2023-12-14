@@ -108,13 +108,13 @@
                     </ul>
                 </nav>
                 <div class="footer__final__pagos">
-                    <img src="img/footer/Visa.webp" alt="Formas de pago - Visa" loading="lazy" width="38" height="32">
-                    <img src="img/footer/Amex.webp" alt="Formas de pago - Amex" loading="lazy" width="38" height="32">
-                    <img src="img/footer/Mastercard.webp" alt="Formas de pago - Mastercard" loading="lazy" width="38" height="32">
-                    <img src="img/footer/Sodexo.webp" alt="Formas de pago - Sodexo" loading="lazy" width="38" height="32">
-                    <img src="img/footer/Cheque-Gourmet.webp" alt="Formas de pago - Cheque Gourmet" loading="lazy" width="38" height="32">
-                    <img src="img/footer/Enisa.webp" alt="Formas de pago - Enisa" loading="lazy" width="38" height="32">
-                    <img src="img/footer/Ticket-Restaurant.webp" alt="Formas de pago - Ticket Restaurant" loading="lazy" width="38" height="32">
+                    <img src="img/footer/Visa.avif" alt="Formas de pago - Visa" loading="lazy" width="38" height="32">
+                    <img src="img/footer/Amex.avif" alt="Formas de pago - Amex" loading="lazy" width="38" height="32">
+                    <img src="img/footer/Mastercard.avif" alt="Formas de pago - Mastercard" loading="lazy" width="38" height="32">
+                    <img src="img/footer/Sodexo.avif" alt="Formas de pago - Sodexo" loading="lazy" width="38" height="32">
+                    <img src="img/footer/Cheque-Gourmet.avif" alt="Formas de pago - Cheque Gourmet" loading="lazy" width="38" height="32">
+                    <img src="img/footer/Enisa.avif" alt="Formas de pago - Enisa" loading="lazy" width="38" height="32">
+                    <img src="img/footer/Ticket-Restaurant.avif" alt="Formas de pago - Ticket Restaurant" loading="lazy" width="38" height="32">
                 </div>
             </div>
             <div class="footer__final__espacio"></div>

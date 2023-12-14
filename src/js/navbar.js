@@ -16,7 +16,7 @@ if (currentPage === '/platos') {
     cambiarColorByClass('icon-container', nuevoColor);
 }
 
-if (currentPage === '/about' || currentPage === '/condiciones-de-uso') {
+if (currentPage === '/sobre-nosotros' || currentPage === '/condiciones-de-uso') {
     var nuevoColor = '#383a33';
     cambiarColorByClass('icon-container', nuevoColor);
 }

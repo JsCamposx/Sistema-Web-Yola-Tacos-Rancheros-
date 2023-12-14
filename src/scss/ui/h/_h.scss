@@ -7,6 +7,9 @@
     padding-bottom: 2rem;
     background-color: v.$light-cream;
     
+    @include m.desktopmx{
+        padding-bottom: 0rem; 
+    }
 
     &__tittle{
         font-size: 5.6rem;

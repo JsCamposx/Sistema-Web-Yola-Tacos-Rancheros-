@@ -16,11 +16,11 @@ class PaginasController
     }
 
 
-    public static function about(Router $router)
+    public static function sobreNosotros(Router $router)
     {
 
 
-        $router->render('paginas/about', [
+        $router->render('paginas/sobre-nosotros', [
             'titulo' => 'Sobre Nosotros'
         ]);
     }
@@ -46,13 +46,14 @@ class PaginasController
         ]);
     }
     
+    
 
     public static function comoFunciona(Router $router)
     {
 
 
         $router->render('paginas/como-funciona', [
-            'titulo' => 'Questions'
+            'titulo' => 'Como Funciona'
         ]);
     }
 
@@ -65,5 +66,14 @@ class PaginasController
         ]);
     }
 
+
+    public static function cookies(Router $router)
+    {
+     
+        $router->render('paginas/cookies', [
+            'titulo' => 'Cookies',
+         
+        ]);
+    }
 
 }
