@@ -17,7 +17,7 @@
                                 <ul>
                                     <li><a href="/como-funciona#Evento">Preguntas frecuentes</a></li>
                                   
-                                    <li><a href="#">Contacto</a></li>
+                                    <li><a href="https://www.facebook.com/YOLATACOSRANCHEROS/about/?locale=es_ES&paipv=0&eav=AfabBKxC4gqyU7DbXEfy6Tr_vBXlqGMn9Xt4JCur7YY6M4MR_8z0DQTtuUI-MuxNuSY&_rdr">Contacto</a></li>
                                 </ul>
                             </div>
                         </div>

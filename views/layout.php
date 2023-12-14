@@ -19,7 +19,8 @@
         document.head.appendChild(swiperLink);
     </script>
     <?php endif; ?>
- 
+    <link rel="icon" href="/img/icono.png" type="image/png">
+
 
  
 
