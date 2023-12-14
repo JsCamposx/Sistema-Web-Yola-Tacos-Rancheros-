@@ -132,3 +132,35 @@
    
    
 }
+
+
+.menu-mobile {
+    display: none;
+  
+}
+
+.menu-mobile.show {
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+ 
+    background-color: #FFF;
+    width: 100%;
+    margin-top: 20.5rem;
+    border-radius: 3rem;
+   
+    & ul {
+        margin-right: 4rem;
+        list-style: none;
+        line-height: 3rem;
+        
+    }
+
+    & a {
+        color: v.$kale;
+    }
+
+   
+}
+
