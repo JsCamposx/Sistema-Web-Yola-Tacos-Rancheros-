@@ -1,6 +1,6 @@
 var currentPage = window.location.pathname;
 
-if (currentPage === '/about') {
+if (currentPage === '/sobre-nosotros') {
     console.log('Script carusel loaded (Page-About)');
 
     var mySwiper1;
