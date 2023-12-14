@@ -10,13 +10,13 @@
                             </div>
                             <div class="footer__servicios--bot">
                                 <ul>
-                                    <li><a href="#">Cómo editar un pedido</a></li>
-                                    <li><a href="#">Cuánto cuesta</a></li>
-                                    <li><a href="#">Cómo funciona</a></li>
+                                    <li><a href="/como-funciona#Evento">¿Como agendo?</a></li>
+                                    <li><a href="/como-funciona#Evento">¿Como pago?</a></li>
+                                    <li><a href="/como-funciona#Funciona">¿Cómo funciona?</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#">Preguntas frecuentes</a></li>
-                                    <li><a href="#">Ticket restaurante</a></li>
+                                    <li><a href="/como-funciona#Evento">Preguntas frecuentes</a></li>
+                                  
                                     <li><a href="#">Contacto</a></li>
                                 </ul>
                             </div>

@@ -3,34 +3,34 @@ $excludeSubHeader = true;
 ?>
 
 <div class="funciona">
-    <div class="funciona__main">
+    <div class="funciona__main" >
         <!-- tittle -->
-        <h1 class="">Agenda Eventos de Sabores Irresistibles</h1>
+        <h1 class="" id="Funciona" >Agenda Eventos de Sabores Irresistibles</h1>
  
         <!-- Section1 -->
-        <div class="funciona__contenedor">
+        <div class="funciona__contenedor" >
             <div class="funciona__contenedor__padl">
                 <div class="funciona__contenedor__padl--tittle">
-                    <h3>Elige lo que te apetece comer desde 6,49€/comida</h3>
+                    <h3>¡Desde la comodidad de tu hogar!</h3>
                 </div>
                 <div class="funciona__contenedor__padl--txt">
-                    <p>Entra a ver los platos, empieza a salivar y elige. Así de sencillo. Nada de menús cerrados y toda la variedad del mundo para que comas siempre lo que te guste.</p>
+                    <p>Explora nuestra variada selección de platos y déjanos hacer que se te haga agua la boca. Nada de menús predefinidos, ¡aquí tienes la libertad de disfrutar siempre de tus favoritos!</p>
                 </div>
 
 
                 <div class="funciona__contenedor__padl--tittle">
-                    <h3>Nos ponemos a cocinar tu pedido</h3>
+                    <h3>¿Quieres disfrutar de nuestra deliciosa oferta en tu propio espacio?</h3>
                 </div>
                 <div class="funciona__contenedor__padl--txt">
-                    <p>Tú sólo tienes que decirnos qué te gusta y nosotros cortamos el bacalao, y lo que surja. Cada semana nuestros cocineros te prepararán comida casera de la buena: sin fritos, aditivos o conservantes.</p>
+                    <p>Solo proporciona tu dirección, indícanos el día y la hora que te convengan, y te llevaremos una taquiza directamente a tu puerta. Recuerda realizar el pago anticipado del 50%.</p>
                 </div>
 
 
                 <div class="funciona__contenedor__padl--tittle">
-                    <h3>Te lo enviamos a donde nos digas</h3>
+                    <h3>Hacemos más que solo taquizas</h3>
                 </div>
                 <div class="funciona__contenedor__padl--txt">
-                    <p>Pásanos tu dirección, dinos qué día y hora te viene bien y te llevaremos tu pedido. Tu comida te llegará en frío y la podrás mantener en el frigo 7 días. Cuando la quieras comer: Al micro y listo.</p>
+                    <p>Así que te invitamos a explorar nuestra variedad de platillos. Ahorra tiempo que podrías gastar comprando y cocinando, ¡nosotros nos encargamos de todo!</p>
                 </div>
 
 
@@ -38,21 +38,21 @@ $excludeSubHeader = true;
                     <h3>Y así de fácil cada semana</h3>
                 </div>
                 <div class="funciona__contenedor__padl--txt">
-                    <p>Gana tiempo al no comprar, cocinar, y bla bla bla. Te sugeriremos un menú nuevo semanalmente basado en tus gustos. Podrás hacer cambios (si quieres). Y como tú eligirás cómo y qué comer, siempre te gustará.</p>
+                    <p>Gana tiempo al no comprar, cocinar, y bla bla bla. Nosotros nos encargamos de todo. Te facilitamos la vida sugiriéndote agendar tu cita a través de WhatsApp, donde solo necesitas indicarnos la fecha y el lugar. ¡Hagamos que tu experiencia sea cómoda y libre de preocupaciones!</p>
                 </div>
 
 
 
-                <a class="color1" href="#">Cancela o pausa cuando quieras.</a>
+                <a class="color1" href="https://api.whatsapp.com/send?phone=526181119679&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F4JV3jB8i9%0A%0AVi%20esto%20en%20Facebook...&app=facebook&fbclid=IwAR3g-fwFYJuRkc5BBolLdtwl6wnKgQzV7QNnpcIeVIgWf0suc0HxtKYGK6s">Contactanos y agenda cuando quieras.</a>
 
                 <div class="h__pad-izquierdo__cboton">
-                    <button class="h__pad-izquierdo__cboton__boton ">
+                    <a class="h__pad-izquierdo__cboton__boton " href="/platos">
                         <span>Explora los platos</span>
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="funciona__contenedor__padr">
-                <img class="funciona__contenedor__padr--img" src="/img/header/Visual.webp" alt="Imagen de Header en PC">
+                <img class="funciona__contenedor__padr--img" src="/img/como-funciona/Visual1.avif" alt="Imagen de Header en PC">
             </div>
         </div>
 
@@ -60,63 +60,62 @@ $excludeSubHeader = true;
 
 
         <!-- Section2 -->
-        <h2>Y nosotros, mientras tú te relajas y disfrutas, hacemos todo esto:</h2>
+        <h2>Nosotros nos Encargamos de Todo en tus Eventos y Taquizas</h2>
         <div class="funciona__contenedorc">
             <div class="funciona__contenedorc--pad">
                 <div class="funciona__contenedorc--img">
-                    <img loading="lazy" src="/img/header/card1.webp" alt="Card img" alt="Card-img" width="100%" height="100%">
+                    <img loading="lazy" src="/img/como-funciona/Card1.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
                 </div>
 
                 <div class="funciona__contenedorc--tittle">
-                    <h4>Seleccionamos proveedores especializados.</h4>
+                    <h4>Seleccionamos lo mejor de lo mejor.</h4>
                 </div>
 
                 <div class="funciona__contenedorc--txt">
-                    <p>Adiós a tirarte el día esperando al repartidor.
-                        Para ser más puntuales organizamos los repartos y las cajas en las furgos como si jugásemos al tetris. Tú eliges día y nosotros lo apañamos para que tengas que esperar lo mínimo.</p>
+                    <p>En cada detalle, buscamos la excelencia. Desde la elección de sabores hasta la presentación impecable, nos esforzamos por ofrecerte lo máximo. Disfruta de eventos y taquizas con un toque extraordinario, donde la calidad es nuestra prioridad.</p>
                 </div>
 
             </div>
 
             <div class="funciona__contenedorc--pad">
                 <div class="funciona__contenedorc--img">
-                    <img loading="lazy" src="/img/header/card1.webp" alt="Card img" alt="Card-img" width="100%" height="100%">
+                    <img loading="lazy" src="/img/como-funciona/Card2.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
                 </div>
 
                 <div class="funciona__contenedorc--tittle">
-                    <h4>Seleccionamos proveedores especializados.</h4>
+                    <h4>Cocinamos todo desde cero.</h4>
                 </div>
 
                 <div class="funciona__contenedorc--txt">
-                    <p>Nada de conservantes ni aditivos que potencien el sabor o que hagan que los alimentos gusten más. Nuestros platos son sanos y están riquísimos porque usamos los mejores productos, no necesitamos atajos y no hacemos trampas.</p>
+                    <p>Desde la cocina hasta tu mesa, cada platillo es elaborado desde cero con ingredientes frescos y de la mejor calidad. Disfruta de la autenticidad y el sabor genuino en cada bocado de nuestros eventos y taquizas, porque para nosotros, todo comienza desde cero.</p>
                 </div>
             </div>
 
             <div class="funciona__contenedorc--pad">
                 <div class="funciona__contenedorc--img">
-                    <img loading="lazy" src="/img/header/card1.webp" alt="Card img" alt="Card-img" width="100%" height="100%">
+                    <img loading="lazy" src="/img/como-funciona/Card3.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
                 </div>
 
                 <div class="funciona__contenedorc--tittle">
-                    <h4>Seleccionamos proveedores especializados.</h4>
+                    <h4>En nuestros platillos todo lo que encontrarás son ingredientes naturales.</h4>
                 </div>
 
                 <div class="funciona__contenedorc--txt">
-                    <p>Desde las verduras, los huevos, la carne o los pescados. Materia prima comprada en origen a proveedores de confianza para que los ingredientes con los que cocinamos sean de primera. Y tus tápers de comida también.</p>
+                    <p>Te garantizamos que en cada bocado de nuestros eventos y taquizas solo encontrarás ingredientes naturales. Desde la frescura de los productos hasta la autenticidad de los sabores, cuidamos cada detalle para ofrecerte una experiencia culinaria llena de calidad y sencillez.</p>
                 </div>
             </div>
 
             <div class="funciona__contenedorc--pad">
                 <div class="funciona__contenedorc--img">
-                    <img loading="lazy" src="/img/header/card1.webp" alt="Card img" alt="Card-img" width="100%" height="100%">
+                    <img loading="lazy" src="/img/como-funciona/Card4.avif" alt="Card img" alt="Card-img" width="100%" height="100%">
                 </div>
 
                 <div class="funciona__contenedorc--tittle">
-                    <h4>Seleccionamos proveedores especializados.</h4>
+                    <h4>Trabajamos para que tu taquiza sea lo mas casera posible.</h4>
                 </div>
 
                 <div class="funciona__contenedorc--txt">
-                    <p>Lavamos, pelamos, cortamos, condimentamos, preparamos los caldos y sofritos a fuego lento durante horas en nuestros hornos, ollas y fogones. Nuestros cocineros siguen las recetas de toda la vida para conseguir un sabor top</p>
+                    <p>Dedicamos esfuerzo y atención en cada detalle para brindarte una experiencia tan auténtica como estar en casa. Desde la preparación hasta el servicio, nos esforzamos por capturar el sabor casero en cada platillo de tu taquiza. Disfruta de la calidez y autenticidad en cada bocado.</p>
                 </div>
             </div>
         </div>
@@ -125,46 +124,46 @@ $excludeSubHeader = true;
         <!-- Section 3 -->
         <div class="funciona__contenedorb">
             <div class="funciona__contenedorb--tittle">
-                Si quieres saber qué es la excelencia, pásate por nuestra cocina.
+            Si buscas la excelencia en eventos y taquizas, agenda con nosotros.
             </div>
             <div class="funciona__contenedorb--txt">
-                Aquí parte de nuestro equipo de cocina. Sí, son buenos en todo. Desde dominar técnicas de alta cocina, a currarse caldos y sofritos durante horas para lograr sabores únicos, o hasta conseguir que cada plato que cocinamos tenga siempre el mismo sabor cuando lo comas. Y lo hacen con recetas de aquí, pero también con platos internacionales, todo con un nivel 10/10. ¿Quieres comprobarlo? Pide tus platos y ponlos a prueba.
+            Descubre la calidad en cada detalle de nuestros eventos y taquizas. Desde la planificación hasta la presentación, nos esforzamos por ofrecerte experiencias excepcionales. Nuestro compromiso se refleja en cada platillo, donde la excelencia es la norma. Agenda con nosotros y sumérgete en la deliciosa perfección de eventos y taquizas de primer nivel.
             </div>
-            <a class="color1" href="#">Cancela o pausa cuando quieras.</a>
+            <a class="color1" href="https://api.whatsapp.com/send?phone=526181119679&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F4JV3jB8i9%0A%0AVi%20esto%20en%20Facebook...&app=facebook&fbclid=IwAR3g-fwFYJuRkc5BBolLdtwl6wnKgQzV7QNnpcIeVIgWf0suc0HxtKYGK6s">Agenda tu evento. ¿Qué esperas?</a>
             <div class="h__pad-izquierdo__cboton justifycontent-center">
-                <button class="h__pad-izquierdo__cboton__boton ">
-                    <span>Explorar</span>
-                </button>
+                <a class="h__pad-izquierdo__cboton__boton " id="Evento" href="https://nicelocal.com.mx/durango/restaurants/yola_tacos_rancheros/">
+                    <span>Explorar reseñas</span>
+                </a>
             </div>
         </div>
 
 
         <!-- Section 4-->
-        <div class="funciona__contenedora">
-            <div class="funciona__contenedora--tittle">
+        <div class="funciona__contenedora" >
+            <div class="funciona__contenedora--tittle" >
                 Aquí tienes respuesta a las preguntas más frecuentes
             </div>
 
             <div class="funciona__contenedora--pad">
-                <div class="funciona__contenedora--padQ">
-                    <h5>¿Cuánto cuesta Wetaca?</h5>
+                <div class="funciona__contenedora--padQ" id="AgendarEvento">
+                    <h5>¿Como agendo mi evento?</h5>
                     <button class="quiz">X</button>
                 </div>
                 <div class="funciona__contenedora--padP">
-                    <p>Tú lo eliges. El precio dependerá de los platos que quieras para tu primera entrega. Ese será el precio de tu suscripción. A partir de ahí, recibirás cada semana platos adaptados a tus gustos y su precio si no haces cambios nunca superará el de tu primer pedido.Podrás elegir platos desde 6,49€/comida.</p>
-                    <p>Por supuesto, podrás pausar entregas si alguna semana no necesitas que te hagamos la comida y lo podrás hacer las veces que quieras y en todo momento.</p>
-                    <a href="#">Ver los platos</a>
+                    <p>¡Agendar tu evento es fácil y rápido! Simplemente contáctanos a través de WhatsApp y te guiaremos en cada paso. Indícanos la fecha y el lugar que tienes en mente, y nosotros nos encargaremos de crear la experiencia perfecta para ti. Desde eventos íntimos hasta grandes celebraciones, estamos aquí para hacer que tu ocasión sea inolvidable. ¡Déjanos encargarnos de todos los detalles mientras tú disfrutas al máximo!</p>
+   
+                    <a href="#">¡Agendar Ahora!</a>
                 </div>
             </div>
 
 
             <div class="funciona__contenedora--pad">
                 <div class="funciona__contenedora--padQ">
-                    <h5>¿Cómo puedo cancelar mi suscripción?</h5>
+                    <h5>¿Cómo pago mi evento?</h5>
                     <button class="quiz">X</button>
                 </div>
                 <div class="funciona__contenedora--padP">
-                    <p>Siempre que quieras podrás cancelar tu suscripción desde tu cuenta con un par de clicks. Sin coste y sin explicaciones. Y si luego quieres volver, también podrás hacerlo. Y oye, si lo que necesitas son unas vacaciones también podrás pausar la suscripción para no recibir comida durante unas semanas y programar cuando quieres volver a activarla. Todo esto lo podrás hacer siempre que lo necesites entrando a la sección de "Mi suscripción" de tu cuenta.</p>
+                    <p>El proceso de pago para tu evento es sencillo y conveniente. Una vez que hayamos coordinado todos los detalles a través de WhatsApp y tengas confirmada la fecha y los servicios, te facilitaremos las opciones de pago. Puedes realizar un pago seguro del 50% de anticipo para asegurar tu reserva. Nos aseguramos de que el proceso sea transparente y cómodo para que puedas concentrarte en disfrutar de tu evento sin preocupaciones financieras. ¡Estamos aquí para hacer que todo sea fácil y accesible para ti!</p>
                 </div>
             </div>
 
