@@ -1590,7 +1590,6 @@ h3 {
   padding-top: 1rem;
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
   width: 100%;
 }
 .header__imagen {
@@ -1609,7 +1608,7 @@ h3 {
   border-radius: 9rem;
   z-index: 10;
   background-color: #FFFFFF;
-  width: 95%;
+  width: 90%;
   height: 6rem;
   outline: 1px solid #eae8e4;
   outline-offset: -1px;
@@ -1706,9 +1705,9 @@ h3 {
   outline-offset: -1px;
   background-color: #FFF;
   width: 100%;
-  margin-top: 22.5rem;
+  margin-top: 23rem;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 .menu-mobile.show {
   display: flex;
@@ -1727,7 +1726,7 @@ h3 {
   color: #383a33;
 }
 .menu-mobile--btn {
-  padding: 1.2rem;
+  padding: 1.5rem;
   font-size: 1.4rem;
   font-weight: normal;
   background-color: #f2f0ec;
@@ -2324,6 +2323,7 @@ h3 {
 
 .padding0 {
   padding-bottom: 0;
+  margin-top: -1rem;
 }
 
 .margin-8rem {

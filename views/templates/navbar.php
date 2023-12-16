@@ -66,7 +66,7 @@
     </button>
 
     <div class="menu-mobile">
-    <button class="menu-mobile--btn">Inicio</button>
+    <button class="menu-mobile--btn">Mi Inicio</button>
         <ul>
             <li><a class="<?php echo pagina_actual('platos') ? 'icon-container hoveredPage' : ''; ?>" href="/platos">Nuestros platos</a></li>
             <li><a class="<?php echo pagina_actual('como-funciona') ? 'icon-container hoveredPage' : ''; ?>" href="/como-funciona">Cómo funciona</a></li>
