@@ -1,11 +1,13 @@
-import './caruselAdmin-Layout';
-import './selection';
-import './sidebar';
 import './alertas';
-import './scroll';
+import './caruselAdmin-Layout';
 import './caruselLayout';
 import './navbar';
-import './toggle';
 import './questions';
+import './scroll';
+import './selection';
+import './sidebar';
+import './toggle';
+import './img';
+
 
 

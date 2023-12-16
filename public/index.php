@@ -17,8 +17,8 @@ $router = new Router();
 
 
 // Login
-$router->get('/', [AuthController::class, 'login']);
-$router->post('/', [AuthController::class, 'login']);
+$router->get('/login', [AuthController::class, 'login']);
+$router->post('/login', [AuthController::class, 'login']);
 $router->post('/logout', [AuthController::class, 'logout']);
 
 // Crear Cuenta
@@ -61,7 +61,7 @@ $router->get('/admin/registrados', [RegistradosController::class, 'index']);
 
 
 // Área Pública
-
+$router->get('/',  [PaginasController::class, 'index']);
 $router->get('/platos',  [PaginasController::class, 'platos']);
 $router->get('/cookies',  [PaginasController::class, 'cookies']);
 $router->get('/como-funciona', [PaginasController::class, 'comoFunciona']);

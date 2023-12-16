@@ -112,9 +112,9 @@
                     <img src="img/footer/amex.avif" alt="Formas de pago - Amex" loading="lazy" width="38" height="32">
                     <img src="img/footer/mastercard.avif" alt="Formas de pago - Mastercard" loading="lazy" width="38" height="32">
                     <img src="img/footer/sodexo.avif" alt="Formas de pago - Sodexo" loading="lazy" width="38" height="32">
-                    <img src="img/footer/cheque-Gourmet.avif" alt="Formas de pago - Cheque Gourmet" loading="lazy" width="38" height="32">
+                    <img src="img/footer/cheque-gourmet.avif" alt="Formas de pago - Cheque Gourmet" loading="lazy" width="38" height="32">
                     <img src="img/footer/enisa.avif" alt="Formas de pago - Enisa" loading="lazy" width="38" height="32">
-                    <img src="img/footer/ticket-Restaurant.avif" alt="Formas de pago - Ticket Restaurant" loading="lazy" width="38" height="32">
+                    <img src="img/footer/ticket-restaurant.avif" alt="Formas de pago - Ticket Restaurant" loading="lazy" width="38" height="32">
                 </div>
             </div>
             <div class="footer__final__espacio"></div>

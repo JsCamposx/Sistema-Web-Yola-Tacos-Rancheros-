@@ -173,7 +173,7 @@ $excludeSubHeader = true;
                     <button class="quiz">X</button>
                 </div>
                 <div class="funciona__contenedora--padP">
-                    <p>Depende de tu ciudad pero lo más habitual es que puedas recibir tu pedido semanal a partir de 2 días laborables tras cerrar la carta los miércoles a las 23.59h. Hasta entonces podrás pedir o hacer cambios en tu menú. A partir del jueves los pedidos quedarán cerrados y todos se enviarán en el horario y día que elijas según tu código postal. Cuantas más personas piden Wetaca en una ciudad, más días de reparto podemos ofrecer.</p>
+                    <p>Depende de tu ciudad pero lo más habitual es que puedas recibir tu pedido semanal a partir de 2 días laborables tras cerrar la carta los miércoles a las 23.59h. Hasta entonces podrás pedir o hacer cambios en tu menú. A partir del jueves los pedidos quedarán cerrados y todos se enviarán en el horario y día que elijas según tu código postal. Cuantas más personas piden  en una ciudad, más días de reparto podemos ofrecer.</p>
                 </div>
             </div>
 

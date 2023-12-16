@@ -1,7 +1,4 @@
 <div class="inicio">
-    <div class="inicio__pad">
-
-
     <!-- Section 1-->
     <div class="swiper-container">
         <div class="h__contenedor flex-row margin7rem" id="miCarrusel">
@@ -98,10 +95,54 @@
         }
     </style>
 
-  <!-- Section 2-->
+    <!-- Section 2-->
+    <div class="inicio__contenedor">
+        <div class="inicio__padMain">
+            <div class="inicio__padMain__left">
+                <div class="inicio__padMain__left--imgfront">
+                    <img src="/img/inicio/imgFront.avif" alt="ImgFront" width="100%" height="100%" loading="lazy">
+                </div>
+                <div class="inicio__padMain__left--imgback">
+                    <img src="/img/inicio/imgBack.avif" alt="ImgBack" width="100%" height="100%" loading="lazy">
+                </div>
+            </div>
+            <div class="inicio__padMain__right">
+                <h2>Quien bien te quiere te cocina un táper.</h2>
+                <p>Porque no hay muestra de amor más grande que alguien diga: “Te he preparado la comida de esta semana”.</p>
+                <p>Pero claro, o bien necesitas a una persona que te quiera mucho (y que quiera cocinarte aún más), o bien nos pruebas y dejas que te cuidemos. ¿Enamorarte comiendo? Pues eso.</p>
+            </div>
 
-
+        </div>
     </div>
+
+
+    <!-- Section 3-->
+    <div class="inicio__contenedor">
+        <div class="inicio__contenedor1">
+            <div class="funciona__contenedor__padl">
+                <div class="funciona__contenedor__padl--tittle">
+                    <h2>¡Desde la comodidad de tu hogar!</h2>
+                </div>
+                <div class="funciona__contenedor__padl--txt">
+                    <p>Explora nuestra variada selección de platos y déjanos hacer que se te haga agua la boca. Nada de menús predefinidos, ¡aquí tienes la libertad de disfrutar siempre de tus favoritos!</p>
+                </div>
+                <a class="color1" href="https://api.whatsapp.com/send?phone=526181119679&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F4JV3jB8i9%0A%0AVi%20esto%20en%20Facebook...&app=facebook&fbclid=IwAR3g-fwFYJuRkc5BBolLdtwl6wnKgQzV7QNnpcIeVIgWf0suc0HxtKYGK6s">Contactanos y agenda cuando quieras.</a>
+                <div class="h__pad-izquierdo__cboton">
+                    <a class="h__pad-izquierdo__cboton__boton " href="/platos">
+                        <span>Explora los platos</span>
+                    </a>
+                </div>
+            </div>
+            <div class="funciona__contenedor__padr">
+                <img class="funciona__contenedor__padr--img" src="/img/inicio/Section3-1.avif" alt="Imagen3-1" width="1024" height="1024" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
 </div>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

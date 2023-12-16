@@ -49,7 +49,7 @@ if (currentPage === '/sobre-nosotros') {
 }
 
 
-if (currentPage === '/platos' ) {
+if (currentPage === '/platos' || currentPage === '/' ) {
     console.log('Script carusel loaded (Page-Carta)');
 
     var mySwiper1;
