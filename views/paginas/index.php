@@ -129,18 +129,21 @@
                 <a class="color1" href="https://api.whatsapp.com/send?phone=526181119679&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F4JV3jB8i9%0A%0AVi%20esto%20en%20Facebook...&app=facebook&fbclid=IwAR3g-fwFYJuRkc5BBolLdtwl6wnKgQzV7QNnpcIeVIgWf0suc0HxtKYGK6s">Contactanos y agenda cuando quieras.</a>
                 <div class="h__pad-izquierdo__cboton">
                     <a class="h__pad-izquierdo__cboton__boton " href="/platos">
-                        <span>Explora los platos</span>
+                        <span>Explorar los platos</span>
                     </a>
                 </div>
             </div>
             <div class="funciona__contenedor__padr">
-                <img class="funciona__contenedor__padr--img" src="/img/inicio/Section3-1.avif" alt="Imagen3-1" width="1024" height="1024" loading="lazy">
+                <img class="funciona__contenedor__padr--img topmargin" src="/img/inicio/Section3-1.avif" alt="Imagen3-1" width="1024" height="1024" loading="lazy">
             </div>
         </div>
     </div>
 
+   <!-- Section 4-->
 
+   <div class="inicio__contenedor">
 
+   </div>
 </div>
 
 </div>

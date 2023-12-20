@@ -47,7 +47,7 @@ $excludeSubHeader = true;
 
                 <div class="h__pad-izquierdo__cboton">
                     <a class="h__pad-izquierdo__cboton__boton " href="/platos">
-                        <span>Explora los platos</span>
+                        <span>Explorar los platos</span>
                     </a>
                 </div>
             </div>

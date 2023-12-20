@@ -18,7 +18,7 @@ $excludeSubHeader = true;
 
                 <div class="h__pad-izquierdo__cboton">
                     <button class="h__pad-izquierdo__cboton__boton backgroundGreen" id="btnHeader">
-                        <span>Explora los platos</span>
+                        <span>Explorar los platos</span>
                     </button>
                 </div>
 

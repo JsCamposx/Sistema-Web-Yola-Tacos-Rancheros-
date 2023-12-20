@@ -4,7 +4,7 @@
 
   /* Estilos para centrar la barra de navegación y distribuir los elementos horizontalmente */
   .header {
-    padding-top: 1rem;
+    background-color: v.$blanco;
     display: flex;
     justify-content: center;
  
@@ -36,7 +36,7 @@
         height: 6rem;
         outline: 1px solid #eae8e4;
         outline-offset: -1px;
-
+        margin-top: 1rem;
        & svg {
         margin-left: 2rem;
         max-width: 7rem;
@@ -94,6 +94,7 @@
         background: none;
         margin-right: 2rem;
         height: 100%;
+        cursor: pointer;
        
         @include m.desktopmx{
             margin-right: 0rem;
@@ -186,6 +187,10 @@
         border-radius: 1rem;
         cursor: pointer;
 
+        @include m.telefonomx{
+            padding: 1.2rem;
+        }
+
        
     }
 }
@@ -216,5 +221,65 @@
     &.show{
         display: none;
    
+    }
+}
+
+
+.menu-login{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out; 
+
+    &.show {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    outline: 1px solid #eae8e4;
+    outline-offset: -1px;
+    background-color: #FFF;
+    width: 14rem;
+    margin-top: 20rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    right: 0;
+
+
+
+    @include m.desktopmx{
+        margin-top: 19rem;
+  
+    }
+
+    & ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        line-height: 4rem;
+    }
+
+    & li {
+        text-align: end;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    & a {
+        color: v.$kale;
+        width: 7rem;
+        text-align: left;
+    }
+
+    & svg {
+        margin-right: 1rem;
+        margin-left: 0rem;
     }
 }
