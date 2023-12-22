@@ -24,19 +24,19 @@ $excludeSubHeader = true;
 
                 <div class="h__pad-izquierdo__stars">
                     <span>
-                        <svg height="32" width="32" viewBox="0 0 576 512" fill="#17330c">
+                        <svg height="32px" width="32px" viewBox="0 0 576 512" fill="#17330c">
                             <path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
                         </svg>
-                        <svg height="32" width="32" viewBox="0 0 576 512" fill="#17330c">
+                        <svg height="32px" width="32px" viewBox="0 0 576 512" fill="#17330c">
                             <path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
                         </svg>
-                        <svg height="32" width="32" viewBox="0 0 576 512" fill="#17330c">
+                        <svg height="32px" width="32px" viewBox="0 0 576 512" fill="#17330c">
                             <path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
                         </svg>
-                        <svg height="32" width="32" viewBox="0 0 576 512" fill="#17330c">
+                        <svg height="32px" width="32px" viewBox="0 0 576 512" fill="#17330c">
                             <path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
                         </svg>
-                        <svg height="32" width="32" viewBox="0 0 576 512" fill="#17330c">
+                        <svg height="32px" width="32px" viewBox="0 0 576 512" fill="#17330c">
                             <path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
                         </svg>
                     </span>
@@ -179,7 +179,7 @@ $excludeSubHeader = true;
                         if ($platillo->tipo_platillo == $categoria->nombre) { ?>
                             <div class="platos__card">
                                 <div class="platos__card--cimg">
-                                    <img class="platos__card--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.avif" loading="lazy" alt="Platillo-img" width="100%" height="100%">
+                                    <img class="platos__card--img" src="/img/platillos/<?php echo $platillo->imagen; ?>.avif" loading="lazy" alt="Platillo-img">
                                     <span class="platos__card--span"><?php echo $platillo->nombre; ?></span>
                                 </div>
 
@@ -190,7 +190,7 @@ $excludeSubHeader = true;
 
                                 <div class="platos__card--foot">
                                     <p></p>
-                                    <button class="platos__card--btn" aria-label="btn-add"><svg height="35" width="35" viewBox="0 0 512 512">
+                                    <button class="platos__card--btn" aria-label="btn-add"><svg height="35px" width="35px" viewBox="0 0 512 512">
                                             <path fill="#17330c" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM232 344V280H168c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V168c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H280v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z" />
                                         </svg></button>
                                 </div>

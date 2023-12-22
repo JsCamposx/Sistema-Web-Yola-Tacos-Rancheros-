@@ -8,25 +8,24 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
 </IfModule>
-# GZIP compression for text files: HTML, CSS, JS, TEXT, XML, FONTS
+# Brotoli compression for text files: HTML, CSS, JS, TEXT, XML, FONTS
 
-<IfModule mod_deflate.c>
-    # Habilitar la compresión Gzip
-    SetOutputFilter DEFLATE
-
-    # Establecer los tipos de archivos que se deben comprimir
-    AddOutputFilterByType DEFLATE text/plain
-    AddOutputFilterByType DEFLATE text/html
-    AddOutputFilterByType DEFLATE text/xml
-    AddOutputFilterByType DEFLATE text/css
-    AddOutputFilterByType DEFLATE application/xml
-    AddOutputFilterByType DEFLATE application/xhtml+xml
-    AddOutputFilterByType DEFLATE application/rss+xml
-    AddOutputFilterByType DEFLATE application/javascript
-    AddOutputFilterByType DEFLATE application/x-javascript
+<IfModule mod_brotli.c>
+    # Habilitar la compresión Brotli
+    AddOutputFilterByType BROTLI_COMPRESS text/plain
+    AddOutputFilterByType BROTLI_COMPRESS text/html
+    AddOutputFilterByType BROTLI_COMPRESS text/xml
+    AddOutputFilterByType BROTLI_COMPRESS text/css
+    AddOutputFilterByType BROTLI_COMPRESS application/xml
+    AddOutputFilterByType BROTLI_COMPRESS application/xhtml+xml
+    AddOutputFilterByType BROTLI_COMPRESS application/rss+xml
+    AddOutputFilterByType BROTLI_COMPRESS application/javascript
+    AddOutputFilterByType BROTLI_COMPRESS application/x-javascript
 
     # Excluir ciertos navegadores antiguos que tienen problemas con la compresión
-    BrowserMatch ^Mozilla/4 gzip-only-text/html
-    BrowserMatch ^Mozilla/4\.0[678] no-gzip
-    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+    BrowserMatch ^Mozilla/4 no-brotli
+    BrowserMatch \bMSIE no-brotli
+
+    # Añadir encabezados de respuesta para indicar que se está utilizando Brotli
+    AddOutputFilter BROTLI_COMPRESS .css .html .js .svg .xml
 </IfModule>

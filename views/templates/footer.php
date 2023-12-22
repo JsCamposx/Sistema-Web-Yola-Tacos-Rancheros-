@@ -16,7 +16,7 @@
                                 </ul>
                                 <ul>
                                     <li><a href="/como-funciona#Evento">Preguntas frecuentes</a></li>
-                                  
+
                                     <li><a href="https://www.facebook.com/YOLATACOSRANCHEROS/about/?locale=es_ES&paipv=0&eav=AfabBKxC4gqyU7DbXEfy6Tr_vBXlqGMn9Xt4JCur7YY6M4MR_8z0DQTtuUI-MuxNuSY&_rdr">Contacto</a></li>
                                 </ul>
                             </div>
@@ -88,9 +88,17 @@
                 </div>
             </div>
         </div>
-        <div class="footer__map">
-            <iframe title="Ubicación del restaurante" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.8078414888782!2d-104.68036792405114!3d24.037840477679403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bc836584a716f%3A0x3d6efa7adfe15def!2syola%20tacos%20rancheros!5e0!3m2!1ses-419!2smx!4v1701594987624!5m2!1ses-419!2smx" style="border:0; border-radius: 3rem;" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Ubicación en el mapa"></iframe>
+        <div class="footer__map" id="iframeboxing" onclick="load_on_iframe()" style="background: url('https://carlos.sanchezdonate.com/wp-content/uploads/onload-iframe.jpg');">
+            <iframe id="iframeonclick" class="hidden" title="Ubicación del restaurante" src="" style="border:0; border-radius: 3rem;" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Ubicación en el mapa"></iframe>
         </div>
+        <script>
+            function load_on_iframe() {
+                document.getElementById("iframeonclick").setAttribute("onClick", "");
+                document.getElementById("iframeonclick").className = document.getElementById("iframeonclick").className.replace(/(?:^|\s)hidden(?!\S)/g, "");
+                document.getElementById("iframeonclick").src =
+                    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.8078414888782!2d-104.68036792405114!3d24.037840477679403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bc836584a716f%3A0x3d6efa7adfe15def!2syola%20tacos%20rancheros!5e0!3m2!1ses-419!2smx!4v1701594987624!5m2!1ses-419!2smx";
+            }
+        </script>
         <div class="footer__final">
             <div class="footer__final__contenedor">
                 <nav>
