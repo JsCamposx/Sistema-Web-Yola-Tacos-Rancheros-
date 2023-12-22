@@ -41,7 +41,7 @@ class AuthController
                         if ($usuario->admin) {
                             header('Location: /admin/dashboard');
                         } else {
-                            header('Location: /finalizar-registro');
+                            header('Location: /');
                         }
                     } else {
                         Usuario::setAlerta('error', 'Password Incorrecto');
@@ -60,14 +60,26 @@ class AuthController
         ]);
     }
 
-    public static function logout()
-    {
+    public static function logout() {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            session_start();
-            $_SESSION = [];
+      
+            if (session_status() == PHP_SESSION_NONE) {
+                session_start();
+            }
+
+        
+            session_destroy();
+
+         
+            session_write_close();
+
+           
             header('Location: /');
+            exit;
         }
     }
+
+    
 
     public static function registro(Router $router)
     {

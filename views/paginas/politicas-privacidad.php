@@ -3,7 +3,7 @@ $excludeSubHeader = true;
 ?>
 <div class="terminos">
 <!-- tittle -->
-<h1 class="margin12rem fontsize36px">Cookies</h1>
+<h1 class="margin12rem fontsize36px">Politicas de privacidad</h1>
 <!-- Content -->
 <div class="terminos__contenedor">
     <ol>

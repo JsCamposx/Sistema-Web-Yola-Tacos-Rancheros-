@@ -5,6 +5,4 @@ RewriteEngine On
 RewriteRule ^$ public/index.php [L]
 RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
 
-<FilesMatch "\.(jpg|jpeg|png|gif|js|css)$">
-   Header set Cache-Control "max-age=604800, public"
-</FilesMatch>
+

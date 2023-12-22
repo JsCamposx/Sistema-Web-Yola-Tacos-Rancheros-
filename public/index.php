@@ -21,6 +21,7 @@ $router->get('/login', [AuthController::class, 'login']);
 $router->post('/login', [AuthController::class, 'login']);
 $router->post('/logout', [AuthController::class, 'logout']);
 
+
 // Crear Cuenta
 $router->get('/registro', [AuthController::class, 'registro']);
 $router->post('/registro', [AuthController::class, 'registro']);
@@ -63,8 +64,9 @@ $router->get('/admin/registrados', [RegistradosController::class, 'index']);
 // Área Pública
 $router->get('/',  [PaginasController::class, 'index']);
 $router->get('/platos',  [PaginasController::class, 'platos']);
-$router->get('/cookies',  [PaginasController::class, 'cookies']);
 $router->get('/como-funciona', [PaginasController::class, 'comoFunciona']);
+$router->get('/cookies',  [PaginasController::class, 'cookies']);
+$router->get('/politicas-de-privacidad', [PaginasController::class, 'politicasPrivacidad']);
 $router->get('/condiciones-de-uso', [PaginasController::class, 'condiciones']);
 
 $router->get('/sobre-nosotros',  [PaginasController::class, 'sobreNosotros']);

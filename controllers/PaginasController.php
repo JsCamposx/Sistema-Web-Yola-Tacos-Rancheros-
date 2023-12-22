@@ -16,6 +16,10 @@ class PaginasController
     }
 
 
+
+ 
+
+
     public static function sobreNosotros(Router $router)
     {
 
@@ -73,6 +77,15 @@ class PaginasController
         $router->render('paginas/cookies', [
             'titulo' => 'Cookies',
          
+        ]);
+    }
+
+    public static function politicasPrivacidad(Router $router)
+    {
+
+
+        $router->render('paginas/politicas-privacidad', [
+            'titulo' => 'Politicas de Privacidad'
         ]);
     }
 

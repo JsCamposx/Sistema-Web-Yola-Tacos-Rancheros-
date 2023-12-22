@@ -99,11 +99,11 @@
                             <a href="/condiciones-de-uso">Términos y condiciones de uso</a>
                         </li>
                         <li>
-                            <a href="#">Políticas de privacidad</a>
+                            <a href="/politicas-de-privacidad">Políticas de privacidad</a>
                         </li>
 
                         <li>
-                            <a href="#">Cookies</a>
+                            <a href="/cookies">Cookies</a>
                         </li>
                     </ul>
                 </nav>

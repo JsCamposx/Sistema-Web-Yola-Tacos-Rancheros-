@@ -1,5 +1,5 @@
 const currentPage = window.location.pathname;
-const targetPages = ['/', '/olvide', '/registro', '/restablecer', '/confirmar', '/mensaje'];
+const targetPages = ['/login', '/olvide', '/registro', '/restablecer', '/confirmar', '/mensaje'];
 
 
 if (targetPages.includes(currentPage)) {
