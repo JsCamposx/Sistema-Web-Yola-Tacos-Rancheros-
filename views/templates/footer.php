@@ -88,10 +88,10 @@
                 </div>
             </div>
         </div>
-        <div class="footer__map" id="iframeboxing" onclick="load_on_iframe()" style="background: url('https://carlos.sanchezdonate.com/wp-content/uploads/onload-iframe.jpg');">
+        <div class="footer__map" id="iframeboxing" onclick="load_on_iframe()" >
             <iframe id="iframeonclick" class="hidden" title="Ubicación del restaurante" src="" style="border:0; border-radius: 3rem;" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Ubicación en el mapa"></iframe>
         </div>
-        <script>
+            <script>
             function load_on_iframe() {
                 document.getElementById("iframeonclick").setAttribute("onClick", "");
                 document.getElementById("iframeonclick").className = document.getElementById("iframeonclick").className.replace(/(?:^|\s)hidden(?!\S)/g, "");

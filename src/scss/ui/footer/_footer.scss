@@ -339,10 +339,10 @@
 
 #iframeboxing {
   cursor: pointer;
-  background-size: cover!important;
   position: relative;
   overflow: hidden;
   border-radius: 3rem;
+  background: url('/img/footer/maps.avif') center/cover no-repeat; 
 }
 
 
