@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon" href="/img/icono.png" type="image/png">
     <meta name="description" content="Administra y transforma eventos con nuestras taquizas. Ofrecemos servicios de catering auténticos y de calidad para hacer de cada evento un festín de sabores inolvidables. ¡Contáctanos para una experiencia única en la gestión de tus eventos y menús!">
+   
 </head>
 
 <body class="dashboard">

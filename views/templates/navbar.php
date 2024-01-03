@@ -69,7 +69,7 @@
     </button>
 
     <div class="menu-mobile">
-    <button class="menu-mobile--btn">Mi Inicio</button>
+    <a class="menu-mobile--btn">Agendar</a>
         <ul>
             <li>
                 <a class="<?php echo pagina_actual('platos') ? 'icon-container hoveredPage' : ''; ?>" href="/platos">Nuestros platos</a>

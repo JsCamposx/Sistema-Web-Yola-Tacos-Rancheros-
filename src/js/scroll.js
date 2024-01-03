@@ -1,9 +1,9 @@
 const currentPage = window.location.pathname;
-const targetPages = ['/login', '/olvide', '/registro', '/restablecer', '/confirmar', '/mensaje'];
+const targetPages = ['/login', '/olvide', '/registro', '/restablecer', '/confirmar-cuenta', '/mensaje'];
 
 
 if (targetPages.includes(currentPage)) {
-    console.log('Script scroll loaded!');
+    console.log('Script scroll loaded1!');
     const targetElement = document.getElementById('authID');
 
     if (targetElement) {

@@ -14,7 +14,7 @@ use Controllers\PlatillosController;
 use Controllers\RegistradosController;
 
 $router = new Router();
-
+ 
 
 // Login
 $router->get('/login', [AuthController::class, 'login']);

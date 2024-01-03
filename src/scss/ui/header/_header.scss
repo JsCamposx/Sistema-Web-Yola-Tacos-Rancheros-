@@ -240,23 +240,24 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
     outline: 1px solid #eae8e4;
     outline-offset: -1px;
     background-color: #FFF;
     width: 15rem;
-    margin-top: 18rem;
+    margin-top: 29rem;
     border-radius: 1rem;
     padding: 1.5rem;
     right: 0;
-
-
+    height: 20rem;
 
     @include m.desktopmx{
-        margin-top: 17rem;
-  
+        margin-top: 28rem;
     }
+
+
+
 
     & ul {
         margin: 0;
@@ -282,5 +283,15 @@
     & svg {
         margin-right: 1rem;
         margin-left: 0rem;
+    }
+}
+
+
+.menu-item{
+    width: 100%;
+    padding: 1rem;
+
+    &-img{
+        border-radius: 100%;
     }
 }

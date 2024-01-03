@@ -62,7 +62,7 @@
                         <span class="sidebar__icon">
                             <i class="fa-solid fa-right-from-bracket"></i>
                         </span>
-                        <span class="sidebar__tittle">Cerrar sesión</span>
+                        <span class="sidebar__tittle">Salir</span>
                     </a>
                 </li>
             </ul>

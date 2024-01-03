@@ -2,7 +2,7 @@
 
 namespace Controllers;
 
-
+use Model\Usuario;
 use MVC\Router;
 
 class RegistradosController
@@ -16,8 +16,12 @@ class RegistradosController
             header('Location: /login');
         }
 
+        $users = Usuario::all();
+
+        
         $router->render('admin/registrados/index', [
-            'titulo' => 'Usuarios registrados'
+            'titulo' => 'Usuarios',
+            'users' => $users
         ]);
     }
 }

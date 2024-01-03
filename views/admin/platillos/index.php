@@ -35,7 +35,7 @@
     <?php } else { ?>
         <div class="cards">
             <?php foreach($platillos as $platillo){ ?>
-                <a href="#"   class="card" data-name="<?php echo $platillo->nombre; ?>">
+                <a    class="card" data-name="<?php echo $platillo->nombre; ?>">
             <form action="/admin/platillos/editar" method="get">
                 <input type="hidden" name="id" value="<?php echo $platillo->id; ?>">
                 <button class="editar-button" href="/admin/platillos/editar?id=<?php echo $platillo->id; ?>" aria-label="Editar-button">
